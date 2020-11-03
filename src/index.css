@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Landing Page */
+
+.into-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  width: 28.333%;
+  height: 25%;
+  float: left;
+  margin: 2.5%;
+  word-wrap: break-word;
+}
+
+.intro-images {
+  border-radius: 50%;
+  width: 60%;
+  height: auto;
+}
+
+.intro-scroll {
+  margin: 0 auto;
+  width: 100%;
+}
