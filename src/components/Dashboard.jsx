@@ -43,6 +43,6 @@ const Dashboard = () => {
 
         </>
     )
-}
+} it
 
 export default Dashboard;
