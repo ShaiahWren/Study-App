@@ -10,7 +10,7 @@ const Signin = () => {
                     <div className="nav-wrapper">
                         <a href="#" className="brand-logo center">Logo</a>
                         <ul id="nav-mobile" className="right">
-                            <li><a href="/">Home</a></li>
+                            <li><a href="/" className="waves-effect waves-light btn-small">Home</a></li>
 
                         </ul>
                     </div>
@@ -28,7 +28,7 @@ const Signin = () => {
 
                         </label>
                         <label >
-                            <button><Link to="/dashboard">
+                            <button className="waves-effect waves-light btn-small"><Link to="/dashboard">
                                 Submit
                             </Link></button>
                         </label>
@@ -49,7 +49,7 @@ const Signin = () => {
 
                         </label>
                         <label >
-                            <button><Link to="/dashboard">
+                            <button className="waves-effect waves-light btn-small"><Link to="/dashboard">
                                 Submit
                             </Link></button>
                         </label>

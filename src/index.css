@@ -53,3 +53,18 @@ code {
   word-wrap: break-word;
   flex-direction: row;
 }
+
+
+/* Dashboard */
+
+.dashboard-links {
+  padding: 18px;
+}
+
+.dash-button {
+  margin: 8px;
+}
+
+.side {
+  width: 110px;
+}

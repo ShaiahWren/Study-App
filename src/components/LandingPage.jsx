@@ -1,5 +1,6 @@
 import React from 'react'
 import { Route } from 'react-router-dom';
+import Dashboard from './Dashboard';
 
 //Components
 import Signin from './Signin';
@@ -14,7 +15,7 @@ const LandingPage = () => {
                     <div className="nav-wrapper">
                         <a href="#" className="brand-logo center">Logo</a>
                         <ul id="nav-mobile" className="right">
-                            <li><a href="/signin">Sign In</a></li>
+                            <li><a href="/signin" className="waves-effect waves-light btn-small">Sign In</a></li>
 
                         </ul>
                     </div>
@@ -96,6 +97,9 @@ const LandingPage = () => {
             </Route>
             <Route path="/signin">
                 <Signin />
+            </Route>
+            <Route path="/dashboard">
+                <Dashboard/>
             </Route>
         </>
     )
