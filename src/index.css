@@ -15,6 +15,11 @@ code {
 
 /* Landing Page */
 
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
 .into-wrapper {
   display: flex;
   flex-direction: row;
@@ -37,4 +42,34 @@ code {
 .intro-scroll {
   margin: 0 auto;
   width: 100%;
+}
+
+/* Sign-up page */
+
+.card-wrapper > div {
+
+}
+
+.sign-up-card{
+  width: 25%;
+  height: 25%;
+  /* float: left; */
+  margin: 0 auto;
+  word-wrap: break-word;
+  flex-direction: row;
+}
+
+
+/* Dashboard */
+
+.dashboard-links {
+  padding: 18px;
+}
+
+.dash-button {
+  margin: 8px;
+}
+
+.side {
+  width: 110px;
 }
