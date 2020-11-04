@@ -1,13 +1,17 @@
 import React from 'react'
+import { Route, Link } from 'react-router-dom';
+
 
 
 const Flashcards = () => {
     return (
         <>
-            <h1>FLASHCARDS</h1>
+            <Route path="/addcard">
+                <AddCard />
+            </Route>
+
         </>
     )
 }
 
 export default Flashcards;
- 
