@@ -4,7 +4,7 @@ import { Route } from 'react-router-dom';
 //Components
 import Signin from './Signin';
 
-const LandingPage = () => {
+const LandingPage = ({ users }) => {
     return (
         <>
 
@@ -21,6 +21,7 @@ const LandingPage = () => {
                 </nav>
 
                 <h1>Our Beautiful Study App</h1>
+                
                 <p>This is the description of our app and why we are making it and what problem it solves!</p>
                 <div className="intro-wrapper">
                     <div className="card">
@@ -34,6 +35,9 @@ const LandingPage = () => {
                         <h2>Flashcards</h2>
                         <p>Quiz yourself on JS, React, etc!
                 </p>
+                    {users.map(user => {
+                        return <p>{user.email}, {user.password}</p>
+                    })}
                     </div>
                     <div className="card">
                         <img className="intro-images" src="http://placekitten.com/200/300" alt="" />
