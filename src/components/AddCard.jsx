@@ -11,11 +11,11 @@ const AddCard = () => {
     const [showAddCategory, setAddCategory] = useState(false);
     const [addedCard, setAddedCard] = useState([]);
 
-    useEffect(() => {
-        async function() {
-            const response = await fetch(`$process.env./api/categories`)
-        }
-    })
+    // useEffect(() => {
+    //     async function() {
+    //         const response = await fetch(`$process.env./api/categories`)
+    //     }
+    // })
     return (
         <>
 

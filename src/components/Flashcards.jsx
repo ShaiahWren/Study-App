@@ -6,9 +6,9 @@ import { Route, Link } from 'react-router-dom';
 const Flashcards = () => {
     return (
         <>
-            <Route path="/addcard">
+            {/* <Route path="/addcard">
                 <AddCard />
-            </Route>
+            </Route> */}
 
         </>
     )
