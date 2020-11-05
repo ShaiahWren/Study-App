@@ -30,19 +30,22 @@ class News extends Component {
      render() {
         return (
             <>
-             <h1> This is News!! </h1>
-    
-             <form>
+             <h1> News </h1>
+             {/* <form>
                 <button type="button" onClick={() => this._handleNews()}> 
                 News Update
                 </button>
-             </form>
+             </form> */}
              {this.state.newsLoads.map(article => {
                  return ( 
-                     <div>
-                        <a href={article.url}><p href={article.url}>{article.title}</p></a>
-                        <p>{article.description}</p>
-                        <a href={article.url}><img src={article.urlToImage}></img></a>
+                    <div className='newsCard'>
+                        <div className='newsCol1'>
+                            <a href={article.url}><img className='newsImg' src={article.urlToImage}></img></a>
+                        </div>
+                        <div className='newsCol2'>
+                            <a href={article.url}><h3>{article.title}</h3></a>
+                            <a href={article.url}><p>{article.description}</p></a>
+                        </div>
                     </div>)})
             };
     
@@ -50,8 +53,5 @@ class News extends Component {
         )}
 
 };
-
-
-
 
 export default News;

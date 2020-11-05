@@ -1,75 +1,104 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-
 
 /* Landing Page */
 
 a {
-  color: inherit; /* blue colors for links too */
-  text-decoration: inherit; /* no underline */
+	color: inherit; /* blue colors for links too */
+	text-decoration: inherit; /* no underline */
 }
 
 .into-wrapper {
-  display: flex;
-  flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 
 .card {
-  width: 28.333%;
-  height: 25%;
-  float: left;
-  margin: 2.5%;
-  word-wrap: break-word;
+	width: 28.333%;
+	height: 25%;
+	float: left;
+	margin: 2.5%;
+	word-wrap: break-word;
 }
 
 .intro-images {
-  border-radius: 50%;
-  width: 60%;
-  height: auto;
+	border-radius: 50%;
+	width: 60%;
+	height: auto;
 }
 
 .intro-scroll {
-  margin: 0 auto;
-  width: 100%;
+	margin: 0 auto;
+	width: 100%;
 }
 
 /* Sign-up page */
 
 .card-wrapper > div {
-
 }
 
-.sign-up-card{
-  width: 25%;
-  height: 25%;
-  /* float: left; */
-  margin: 0 auto;
-  word-wrap: break-word;
-  flex-direction: row;
+.sign-up-card {
+	width: 25%;
+	height: 25%;
+	/* float: left; */
+	margin: 0 auto;
+	word-wrap: break-word;
+	flex-direction: row;
 }
-
 
 /* Dashboard */
 
 .dashboard-links {
-  padding: 18px;
+	padding: 18px;
 }
 
 .dash-button {
-  margin: 8px;
+	margin: 8px;
 }
 
 .side {
-  width: 110px;
+	width: 110px;
+}
+
+/* News Page */
+
+.newsCard {
+	width: 85%;
+	float: left;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	margin-top: 3%;
+	word-wrap: break-word;
+	display: flex;
+	flex-direction: row;
+}
+
+.newsImg {
+	max-width: 100%;
+}
+
+.newsCol1 {
+	width: 30%;
+}
+
+.newsCol2 {
+	width: 65%;
+	float: right;
+}
+
+.newsCol2 h3 {
+	font-size: 25px;
+}
+
+.youtube {
+	margin: 20px;
 }

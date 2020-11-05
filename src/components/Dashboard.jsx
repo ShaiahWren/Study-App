@@ -4,7 +4,7 @@ import { Route, Link } from 'react-router-dom';
 //Componenets
 import Flashcards from './Flashcards';
 import News from './News';
-import QuizYourself from './QuizYourself';
+import YouTube from './YouTube';
 
 
 
@@ -24,7 +24,7 @@ const Dashboard = () => {
             <div className="dashboard-links">
                 <a class="waves-effect waves-light btn-large dash-button side"><Link to="/dashboard">News</Link></a>
                 <a class="waves-effect waves-light btn-large dash-button"><Link to="/dashboard/flashcards">Flashcards</Link></a>
-                <a class="waves-effect waves-light btn-large dash-button side"><Link to="/dashboard/quizyourself">Other</Link></a>
+                <a class="waves-effect waves-light btn-large dash-button side"><Link to="/dashboard/quizyourself">Videos</Link></a>
 
             </div>
 
@@ -37,7 +37,7 @@ const Dashboard = () => {
             </Route>
 
             <Route path="/dashboard/quizyourself">
-                <QuizYourself />
+                <YouTube />
             </Route>
 
 
