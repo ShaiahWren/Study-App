@@ -4,7 +4,7 @@ import { Route, Link } from 'react-router-dom';
 //Componenets
 import Flashcards from './Flashcards';
 import News from './News';
-import YouTube from './YouTube';
+import YouTube from './YouTube/YouTube';
 import Jobs from './Jobs'
 
 
