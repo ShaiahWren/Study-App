@@ -24,7 +24,7 @@ a {
 }
 
 .card {
-	width: 28.333%;
+	width: 20%;
 	height: 25%;
 	float: left;
 	margin: 2.5%;
@@ -102,6 +102,21 @@ a {
 
 /* Video Page */
 
-.youtube {
-	margin: 20px;
+.video-item {
+	display: flex !important;
+	align-items: center !important;
+	cursor: pointer;
+}
+
+.video-item.item img {
+	max-width: 200px;
+	max-height: 250px;
+}
+
+.left.column {
+	width: 500px;
+}
+
+.right.column {
+	width: 300px;
 }
