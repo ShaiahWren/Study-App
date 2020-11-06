@@ -20,7 +20,19 @@ class YouTube extends Component {
     }
 
     clicked(){
-        
+        const getMoviesFromApi = () => {
+            return fetch(finalURL)
+                .then((response) => response.json())
+                .then((json) => {
+            // console.log(json)
+            const resultyt = json.items.map(obj => 'https://www.youtube.com/embed/'+obj.id.videoID);
+            this.setState({resultyt})
+            console.log(this.resultyt)
+            })
+            .catch((error) => {
+            console.error(error);
+            });
+};
     }
 
     render() {
