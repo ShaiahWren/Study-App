@@ -4,6 +4,7 @@ body {
 		'Droid Sans', 'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background-color: #eceff1;
 }
 
 code {
@@ -66,7 +67,7 @@ a {
 }
 
 .side {
-	width: 110px;
+	width: 150px;
 }
 
 /* News Page */
@@ -98,6 +99,8 @@ a {
 .newsCol2 h3 {
 	font-size: 25px;
 }
+
+/* Video Page */
 
 .youtube {
 	margin: 20px;
