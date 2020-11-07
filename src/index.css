@@ -58,18 +58,6 @@ a {
 
 /* Dashboard */
 
-.dashboard-links {
-	padding: 18px;
-}
-
-.dash-button {
-	margin: 8px;
-}
-
-.side {
-	width: 150px;
-}
-
 /* News Page */
 
 .newsCard {
@@ -114,9 +102,9 @@ a {
 }
 
 .left.column {
-	width: 500px;
+	max-width: 500px;
 }
 
 .right.column {
-	width: 300px;
+	max-width: 300px;
 }

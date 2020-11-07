@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 import Dashboard from './Dashboard';
 
 //Components
-import Signin from './Signin';
+import AboutUs from './AboutUs';
 
 const LandingPage = ({ users }) => {
     return (
@@ -12,10 +12,11 @@ const LandingPage = ({ users }) => {
             <Route exact path="/">
 
                 <nav>
-                    <div className="nav-wrapper blue-grey darken-3">
-                        <a href="#" className="brand-logo center">Logo</a>
+                    <div className="nav-wrapper z-depth-0 blue-grey darken-3">
+                        <a href="#" className="brand-logo center">j.DevSpace</a>
                         <ul id="nav-mobile" className="right">
-                            <li><a href="/signin" className="waves-effect waves-light btn-small light-blue darken-2">Sign In</a></li>
+                            <li><a href="/aboutus" className="waves-effect waves-light btn-small light-blue darken-2">About Us</a></li>
+                            <li><a href="/dashboard" className="waves-effect waves-light btn-small light-blue darken-2">Dashboard</a></li>
 
                         </ul>
                     </div>
@@ -100,8 +101,8 @@ const LandingPage = ({ users }) => {
                     </div>
                 </footer>
             </Route>
-            <Route path="/signin">
-                <Signin />
+            <Route path="/aboutus">
+                <AboutUs />
             </Route>
             <Route path="/dashboard">
                 <Dashboard/>
