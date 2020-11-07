@@ -27,14 +27,14 @@ class YouTube extends React.Component {
 
 	render() {
 		return (
-			<div className="ui container" style={{ marginTop: '1em' }}>
+			<div className="ui container">
 				<SearchBar handleFormSubmit={this.handleSubmit} />
 				<div className="ui grid">
-					<div className="ui row">
-						<div className="left column">
+					<div className="row">
+						<div className="col m7">
 							<VideoDetail video={this.state.selectedVideo} />
 						</div>
-						<div className="right column">
+						<div className="col m5">
 							<VideoList handleVideoSelect={this.handleVideoSelect} videos={this.state.videos} />
 						</div>
 					</div>
