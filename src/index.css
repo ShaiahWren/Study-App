@@ -112,3 +112,40 @@ a {
 	margin-left: 15%;
 	margin-right: 15%;
 }
+
+/* About Us && Landing Page */
+
+@media (min-width: 320px) {
+	.intro-scroll {
+		display: none;
+	}
+	.intro-wrapper {
+		flex-direction: column;
+		margin: 0 auto;
+		width: 100%;
+	}
+	.card {
+		width: 98%;
+		height: 25%;
+		float: center;
+		margin: 1%;
+		word-wrap: break-word;
+	}
+}
+@media (min-width: 481px) {
+	.intro-scroll {
+		display: none;
+	}
+	.intro-wrapper > div {
+		flex-direction: row;
+		/* flex-wrap: wrap;	 */
+	}
+	.card {
+		width: 46%;
+		height: 25%;
+		float: center;
+		margin: 2%;
+		word-wrap: break-word;
+		flex-wrap: wrap;
+	}
+}
