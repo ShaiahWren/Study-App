@@ -140,8 +140,9 @@ a {
 	.intro-scroll {
 		display: none;
 	}
-	.intro-wrapper {
-		flex-direction: row;	
+	.intro-wrapper > div {
+		flex-direction: row;
+		/* flex-wrap: wrap;	 */
 	
 	}
 	.card {
@@ -150,6 +151,7 @@ a {
 		float: center;
 		margin: 2%;
 		word-wrap: break-word;
+		flex-wrap: wrap;
 	}
 
 }
