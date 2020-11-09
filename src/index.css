@@ -30,9 +30,17 @@ a {
 .card {
 	width: 20%;
 	height: 25%;
-	float: left;
-	margin: 2.5%;
+	float: center;
+	margin: 1%;
 	word-wrap: break-word;
+}
+
+.card.left {
+	margin-left: 7%;
+}
+
+.card.right {
+	margin-right: 7%;
 }
 
 .intro-images {
@@ -101,3 +109,48 @@ a {
 .right.column {
 	max-width: 300px;
 }
+
+
+
+
+
+
+/* About Us && Landing Page */
+
+
+@media (min-width: 320px) {
+	.intro-scroll {
+		display: none;
+	}
+	.intro-wrapper {
+		flex-direction: column;
+		margin: 0 auto;
+		width: 100%;
+	}
+	.card {
+		width: 98%;
+		height: 25%;
+		float: center;
+		margin: 1%;
+		word-wrap: break-word;
+	}
+
+}
+@media (min-width: 481px) {
+	.intro-scroll {
+		display: none;
+	}
+	.intro-wrapper {
+		flex-direction: row;	
+	
+	}
+	.card {
+		width: 46%;
+		height: 25%;
+		float: center;
+		margin: 2%;
+		word-wrap: break-word;
+	}
+
+}
+
