@@ -28,7 +28,6 @@ a {
 }
 
 .card {
-	
 	float: center;
 	margin: 1%;
 	word-wrap: break-word;
@@ -115,25 +114,26 @@ a {
 
 /* About Us && Landing Page */
 
-/* @media (min-width: 320px) {
+@media (min-width: 320px) {
 	.intro-scroll {
 		display: none;
 	}
-
-	.intro-wrapper {
-		flex-direction: column;
-		margin: 0 auto;
-		width: 100%;
 }
 
-/* @media (min-width: 481px) {
+.intro-wrapper {
+	flex-direction: column;
+	margin: 0 auto;
+	width: 100%;
+}
+
+@media (min-width: 481px) {
 	.intro-scroll {
 		display: inline;
 	}
+}
 
-	.intro-wrapper {
-		flex-direction: column;
-		flex-wrap: wrap;
-		float: left;	
-	
-	}
+.intro-wrapper {
+	flex-direction: column;
+	flex-wrap: wrap;
+	float: left;
+}
