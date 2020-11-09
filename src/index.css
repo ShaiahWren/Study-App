@@ -19,7 +19,7 @@ a {
 }
 
 .intro {
-	margin: 0 2.5% 100px 2.5%;
+	margin: 0 15% 100px 15%;
 }
 
 .intro-wrapper {
@@ -30,9 +30,17 @@ a {
 .card {
 	width: 20%;
 	height: 25%;
-	float: left;
-	margin: 2.5%;
+	float: center;
+	margin: 1%;
 	word-wrap: break-word;
+}
+
+.card.left {
+	margin-left: 7%;
+}
+
+.card.right {
+	margin-right: 7%;
 }
 
 .intro-images {
@@ -42,21 +50,18 @@ a {
 }
 
 .intro-scroll {
-	margin: 0 2.5% 100px 2.5%;
+	margin: 0 15% 100px 15%;
 	float: left;
 }
-
-/* Sign-up page */
 
 /* Dashboard */
 
 /* News Page */
 
 .newsCard {
-	width: 85%;
-	float: left;
-	margin-left: 7.5%;
-	margin-right: 7.5%;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
 	margin-top: 3%;
 	word-wrap: break-word;
 	display: flex;
@@ -100,4 +105,10 @@ a {
 
 .right.column {
 	max-width: 300px;
+}
+
+.container {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
 }

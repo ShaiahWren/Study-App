@@ -32,7 +32,7 @@ const LandingPage = ({ users }) => {
                 </div>
 
                 <div className="intro-wrapper">
-                    <div className="card z-depth-0 blue-grey lighten-5">
+                    <div className="card left z-depth-0 blue-grey lighten-5">
                         <img className="intro-images" src="/images/flashcards.png" alt="" />
                         
                         <h2>News</h2>
@@ -50,7 +50,7 @@ const LandingPage = ({ users }) => {
                         <h2>Videos</h2>
                         <p>Video tutorials and more</p>
                     </div>
-                    <div className="card z-depth-0 blue-grey lighten-5">
+                    <div className="card right z-depth-0 blue-grey lighten-5">
                         <img className="intro-images" src="/images/flashcards.png" alt="" />
 
                         <h2>Jobs</h2>
