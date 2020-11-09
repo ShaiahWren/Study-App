@@ -8,7 +8,7 @@ import AboutUs from './AboutUs';
 
 const LandingPage = ({ users }) => {
 
-    gsap.fromTo('div .card', {y:100, opacity:0}, {y:0, opacity:1, stagger:0.1,});
+    gsap.fromTo('div .card', { y: 100, opacity: 0 }, { y: 0, opacity: 1, stagger: 0.1, });
 
     return (
         <>
@@ -32,29 +32,39 @@ const LandingPage = ({ users }) => {
                 </div>
 
                 <div className="intro-wrapper">
-                    <div className="card z-depth-0 blue-grey lighten-5">
-                        <img className="intro-images" src="/images/flashcards.png" alt="" />
-                        
-                        <h2>News</h2>
-                        <p>A place for sharing news and resources about projects, tech, etc!</p>
-                    </div>
-                    <div className="card z-depth-0 blue-grey lighten-5">
-                        <img className="intro-images" src="/images/flashcards.png" alt="" />
-                        
-                        <h2>Flashcards</h2>
-                        <p>Quiz yourself on JS, React, etc!</p>
-                    </div>
-                    <div className="card z-depth-0 blue-grey lighten-5">
-                        <img className="intro-images" src="/images/flashcards.png" alt="" />
+                    <div className="row">
+                        <div className="col m6 l3">
+                            <div className="card z-depth-0 blue-grey lighten-5">
+                                <img className="intro-images" src="/images/flashcards.png" alt="" />
 
-                        <h2>Videos</h2>
-                        <p>Video tutorials and more</p>
-                    </div>
-                    <div className="card z-depth-0 blue-grey lighten-5">
-                        <img className="intro-images" src="/images/flashcards.png" alt="" />
+                                <h2>News</h2>
+                                <p>A place for sharing news and resources about projects, tech, etc!</p>
+                            </div>
+                        </div>
+                        <div className="col m6 l3">
+                            <div className="card z-depth-0 blue-grey lighten-5">
+                                <img className="intro-images" src="/images/flashcards.png" alt="" />
 
-                        <h2>Jobs</h2>
-                        <p>Job info for junior devs</p>
+                                <h2>Flashcards</h2>
+                                <p>Quiz yourself on JS, React, etc!</p>
+                            </div>
+                        </div>
+                        <div className="col m6 l3">
+                            <div className="card z-depth-0 blue-grey lighten-5">
+                                <img className="intro-images" src="/images/flashcards.png" alt="" />
+
+                                <h2>Videos</h2>
+                                <p>Video tutorials and more</p>
+                            </div>
+                        </div>
+                        <div className="col m6 l3">
+                            <div className="card z-depth-0 blue-grey lighten-5">
+                                <img className="intro-images" src="/images/flashcards.png" alt="" />
+
+                                <h2>Jobs</h2>
+                                <p>Job info for junior devs</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -84,7 +94,7 @@ const LandingPage = ({ users }) => {
                 <AboutUs />
             </Route>
             <Route path="/dashboard">
-                <Dashboard/>
+                <Dashboard />
             </Route>
         </>
     )

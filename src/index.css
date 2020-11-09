@@ -28,8 +28,7 @@ a {
 }
 
 .card {
-	width: 20%;
-	height: 25%;
+	
 	float: center;
 	margin: 1%;
 	word-wrap: break-word;
@@ -127,32 +126,35 @@ a {
 		margin: 0 auto;
 		width: 100%;
 	}
-	.card {
+	/* .card {
 		width: 98%;
 		height: 25%;
 		float: center;
 		margin: 1%;
 		word-wrap: break-word;
-	}
+	} */
 
 }
 @media (min-width: 481px) {
 	.intro-scroll {
-		display: none;
+		display: inline;
 	}
-	.intro-wrapper > div {
-		flex-direction: row;
-		/* flex-wrap: wrap;	 */
+	.intro-wrapper {
+		flex-direction: column;
+		flex-wrap: wrap;
+		float: left;	
 	
 	}
-	.card {
+	/* .card {
 		width: 46%;
 		height: 25%;
-		float: center;
 		margin: 2%;
 		word-wrap: break-word;
 		flex-wrap: wrap;
-	}
+		float: left;	
+
+	} */
+
 
 }
 
