@@ -1,11 +1,15 @@
 import React from 'react'
 import { Route } from 'react-router-dom';
 import Dashboard from './Dashboard';
+import { gsap } from 'gsap'
 
 //Components
 import AboutUs from './AboutUs';
 
 const LandingPage = ({ users }) => {
+
+    gsap.fromTo('div .card', {y:100, opacity:0}, {y:0, opacity:1, stagger:0.1,});
+
     return (
         <>
 
@@ -22,30 +26,31 @@ const LandingPage = ({ users }) => {
                     </div>
                 </nav>
 
-                <h1>Our Beautiful Study App</h1>
-                
-                <p>This is the description of our app and why we are making it and what problem it solves!</p>
+                <div className='intro'>
+                    <h1>Our Beautiful Study App</h1>
+                    <p>This is the description of our app and why we are making it and what problem it solves! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo vel orci porttitor malesuada. Proin sed tempor eros, sit amet dapibus turpis. Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.</p>
+                </div>
+
                 <div className="intro-wrapper">
-                    <div className="card">
+                    <div className="card z-depth-0 blue-grey lighten-5">
                         <img className="intro-images" src="/images/flashcards.png" alt="" />
+                        
                         <h2>News</h2>
                         <p>A place for sharing news and resources about projects, tech, etc!</p>
                     </div>
-                    <div className="card">
+                    <div className="card z-depth-0 blue-grey lighten-5">
                         <img className="intro-images" src="/images/flashcards.png" alt="" />
+                        
                         <h2>Flashcards</h2>
                         <p>Quiz yourself on JS, React, etc!</p>
-                            {users.map(user => {
-                            return <p>{user.email}, {user.password}</p>})}
-                            <p>Quiz yourself on JS, React, etc!</p>
                     </div>
-                    <div className="card">
+                    <div className="card z-depth-0 blue-grey lighten-5">
                         <img className="intro-images" src="/images/flashcards.png" alt="" />
 
                         <h2>Videos</h2>
                         <p>Video tutorials and more</p>
                     </div>
-                    <div className="card">
+                    <div className="card z-depth-0 blue-grey lighten-5">
                         <img className="intro-images" src="/images/flashcards.png" alt="" />
 
                         <h2>Jobs</h2>
@@ -54,7 +59,6 @@ const LandingPage = ({ users }) => {
                 </div>
 
                 <div className="intro-scroll">
-                    <p>Scroll to learn more</p>
                     <div>
                         <div>
                             <h3>News</h3>
@@ -75,31 +79,6 @@ const LandingPage = ({ users }) => {
                     </div>
                 </div>
 
-                <footer className="page-footer blue-grey darken-2">
-                    <div className="container">
-                        <div className="row">
-                        <div className="col l6 s12">
-                            <h5 className="white-text">Footer Content</h5>
-                            <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-                        </div>
-                        <div className="col l4 offset-l2 s12">
-                            <h5 className="white-text">Links</h5>
-                            <ul>
-                            <li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                            <li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                            <li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                            <li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="footer-copyright blue-grey darken-3">
-                        <div className="container">
-                        © 2014 Copyright Text
-                        <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
-                        </div>
-                    </div>
-                </footer>
             </Route>
             <Route path="/aboutus">
                 <AboutUs />

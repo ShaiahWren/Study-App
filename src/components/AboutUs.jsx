@@ -1,8 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
+import { gsap } from 'gsap'
 
 const Signin = () => {
+
+    gsap.to('.card-wrapper', {y:200, duration:3});
+
     return (
         <>
                 <nav>
