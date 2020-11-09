@@ -27,7 +27,8 @@ class YouTube extends React.Component {
 	};
 
 	render() {
-		gsap.fromTo('div .col.m5', { opacity: 0 }, { opacity: 1, stagger: 0.3, duration: 2 });
+		// gsap.fromTo('div .col.m5', { opacity: 0 }, { opacity: 1, stagger: 0.3, duration: 2 });
+
 		return (
 			<div className="ui container">
 				<SearchBar handleFormSubmit={this.handleSubmit} />

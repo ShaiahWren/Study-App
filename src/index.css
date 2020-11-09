@@ -111,19 +111,22 @@ a {
 	width: 70%;
 	margin-left: 15%;
 	margin-right: 15%;
+	padding-top: 5rem;
 }
 
 /* About Us && Landing Page */
 
-@media (min-width: 320px) {
+/* @media (min-width: 320px) {
 	.intro-scroll {
 		display: none;
 	}
+
 	.intro-wrapper {
 		flex-direction: column;
 		margin: 0 auto;
 		width: 100%;
 	}
+
 	.card {
 		width: 98%;
 		height: 25%;
@@ -131,15 +134,18 @@ a {
 		margin: 1%;
 		word-wrap: break-word;
 	}
-}
-@media (min-width: 481px) {
+} */
+
+/* @media (min-width: 481px) {
 	.intro-scroll {
 		display: none;
 	}
+
 	.intro-wrapper > div {
 		flex-direction: row;
-		/* flex-wrap: wrap;	 */
+		/* flex-wrap: wrap;
 	}
+
 	.card {
 		width: 46%;
 		height: 25%;
@@ -148,4 +154,4 @@ a {
 		word-wrap: break-word;
 		flex-wrap: wrap;
 	}
-}
+} */

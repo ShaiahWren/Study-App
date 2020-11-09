@@ -142,15 +142,16 @@ const Dashboard = () => {
             </Route>
             
             <Route path="/dashboard/flashcards">
-            <form className="header" onSubmit={handleSubmit}>
-        <button className='button' onClick={javascriptButton}>Javascript</button>
-        <button className='button' onClick={reactButton}>React</button>
-        <button className='button' onClick={pythonButton}>Python</button>
-      </form>
-      <div className="container">
-        <FlashcardList flashcards={flashcards} />
-      </div>
-                <FlashcardList flashcards={flashcards}/>
+                <div className='col s12'>
+                    <ul className="tabs dashboard-links blue-grey darken-3" onSubmit={handleSubmit}>
+                        <li className='tab col s3 blue-grey-text text-lighten-5' onClick={javascriptButton}>Javascript</li>
+                        <li className='tab col s3 blue-grey-text text-lighten-5' onClick={reactButton}>React</li>
+                        <li className='tab col s3 blue-grey-text text-lighten-5' onClick={pythonButton}>Python</li>
+                    </ul>
+                </div>
+                <div className="container">
+                    <FlashcardList flashcards={flashcards} />
+                </div>
             </Route>
 
             <Route path="/dashboard/video">
