@@ -29,7 +29,7 @@ class News extends Component {
 
      render() {
 
-        gsap.fromTo('div .newsCard', {opacity:0}, {opacity:1, stagger:0.3, duration:3});
+        // gsap.fromTo('div .newsCard', {opacity:0}, {opacity:1, stagger:0.3, duration:3});
 
         return (
             <>
@@ -41,7 +41,7 @@ class News extends Component {
              </form> */}
              {this.state.newsLoads.map(article => {
                  return ( 
-                    <div className='newsCard'>
+                    <div className='newsCard card'>
                         <div className='newsCol1'>
                             <a href={article.url}><img className='newsImg' src={article.urlToImage}></img></a>
                         </div>

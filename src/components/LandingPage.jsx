@@ -32,6 +32,28 @@ const LandingPage = ({ users }) => {
                 </div>
 
                 <div className="intro-wrapper">
+
+                    <div className="card left z-depth-0 blue-grey lighten-5">
+                        <img className="intro-images" src="/images/flashcards.png" alt="" />
+                        
+                        <h2>News</h2>
+                        <p>A place for sharing news and resources about projects, tech, etc!</p>
+                    </div>
+                    <div className="card z-depth-0 blue-grey lighten-5">
+                        <img className="intro-images" src="/images/flashcards.png" alt="" />
+                        
+                        <h2>Flashcards</h2>
+                        <p>Quiz yourself on JS, React, etc!</p>
+                    </div>
+                    <div className="card z-depth-0 blue-grey lighten-5">
+                        <img className="intro-images" src="/images/flashcards.png" alt="" />
+
+                        <h2>Videos</h2>
+                        <p>Video tutorials and more</p>
+                    </div>
+                    <div className="card right z-depth-0 blue-grey lighten-5">
+                        <img className="intro-images" src="/images/flashcards.png" alt="" />
+
                     <div className="row">
                         <div className="col m6 l3">
                             <div className="card z-depth-0 blue-grey lighten-5">
@@ -44,6 +66,7 @@ const LandingPage = ({ users }) => {
                         <div className="col m6 l3">
                             <div className="card z-depth-0 blue-grey lighten-5">
                                 <img className="intro-images" src="/images/flashcards.png" alt="" />
+
 
                                 <h2>Flashcards</h2>
                                 <p>Quiz yourself on JS, React, etc!</p>

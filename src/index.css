@@ -19,7 +19,7 @@ a {
 }
 
 .intro {
-	margin: 0 2.5% 100px 2.5%;
+	margin: 0 15% 100px 15%;
 }
 
 .intro-wrapper {
@@ -49,21 +49,18 @@ a {
 }
 
 .intro-scroll {
-	margin: 0 2.5% 100px 2.5%;
+	margin: 0 15% 100px 15%;
 	float: left;
 }
-
-/* Sign-up page */
 
 /* Dashboard */
 
 /* News Page */
 
 .newsCard {
-	width: 85%;
-	float: left;
-	margin-left: 7.5%;
-	margin-right: 7.5%;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
 	margin-top: 3%;
 	word-wrap: break-word;
 	display: flex;
@@ -109,52 +106,34 @@ a {
 	max-width: 300px;
 }
 
-
-
-
-
+.container {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-top: 5rem;
+}
 
 /* About Us && Landing Page */
 
-
-@media (min-width: 320px) {
+/* @media (min-width: 320px) {
 	.intro-scroll {
 		display: none;
 	}
+
 	.intro-wrapper {
 		flex-direction: column;
 		margin: 0 auto;
 		width: 100%;
-	}
-	/* .card {
-		width: 98%;
-		height: 25%;
-		float: center;
-		margin: 1%;
-		word-wrap: break-word;
-	} */
-
 }
-@media (min-width: 481px) {
+
+/* @media (min-width: 481px) {
 	.intro-scroll {
 		display: inline;
 	}
+
 	.intro-wrapper {
 		flex-direction: column;
 		flex-wrap: wrap;
 		float: left;	
 	
 	}
-	/* .card {
-		width: 46%;
-		height: 25%;
-		margin: 2%;
-		word-wrap: break-word;
-		flex-wrap: wrap;
-		float: left;	
-
-	} */
-
-
-}
-
