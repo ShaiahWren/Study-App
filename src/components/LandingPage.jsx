@@ -24,7 +24,7 @@ const LandingPage = ({ users }) => {
                     </div>
                 </nav>
                 <div className='intro'>
-                    <h1>Our Beautiful Study App</h1>
+                    <h1 id="top">Our Beautiful Study App</h1>
                     <p>This is the description of our app and why we are making it and what problem it solves! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo vel orci porttitor malesuada. Proin sed tempor eros, sit amet dapibus turpis. Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.</p>
                 </div>
                 <div className="intro-wrapper">
@@ -32,29 +32,29 @@ const LandingPage = ({ users }) => {
                         <div className="col m6 l3">
                             <div className="card z-depth-0 blue-grey lighten-5">
                                 <img className="intro-images" src="/images/flashcards.png" alt="" />
-                                <h2>News</h2>
-                                <p>A place for sharing news and resources about projects, tech, etc!</p>
+                                <h2><a href="#news">News</a></h2>
+                                {/* <p>A place for sharing news and resources about projects, tech, etc!</p> */}
                             </div>
                         </div>
                         <div className="col m6 l3">
                             <div className="card z-depth-0 blue-grey lighten-5">
                                 <img className="intro-images" src="/images/flashcards.png" alt="" />
-                                <h2>Flashcards</h2>
-                                <p>Quiz yourself on JS, React, etc!</p>
+                                <h2><a href="#flashcards">Flashcards</a></h2>
+                                {/* <p>Quiz yourself on JS, React, etc!</p> */}
                             </div>
                         </div>
                         <div className="col m6 l3">
                             <div className="card z-depth-0 blue-grey lighten-5">
                                 <img className="intro-images" src="/images/flashcards.png" alt="" />
-                                <h2>Videos</h2>
-                                <p>Video tutorials and more</p>
+                                <h2><a href="#videos">Videos</a></h2>
+                                {/* <p>Video tutorials and more</p> */}
                             </div>
                         </div>
                         <div className="col m6 l3">
                             <div className="card z-depth-0 blue-grey lighten-5">
                                 <img className="intro-images" src="/images/flashcards.png" alt="" />
-                                <h2>Jobs</h2>
-                                <p>Job info for junior devs</p>
+                                <h2><a href="#jobs">Jobs</a></h2>
+                                {/* <p>Job info for junior devs</p> */}
                             </div>
                         </div>
                     </div>
@@ -62,20 +62,27 @@ const LandingPage = ({ users }) => {
                 <div className="intro-scroll">
                     <div>
                         <div>
-                            <h3>News</h3>
+                            <h3 id="news">News</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo vel orci porttitor malesuada. Proin sed tempor eros, sit amet dapibus turpis. Praesent vitae elit quis nibh facilisis eleifend. In id viverra tellus, sed varius mauris. Suspendisse vel ultrices urna. Sed sit amet dui et nisl dapibus feugiat sed eget mi. Mauris nunc velit, pulvinar id augue eget, vulputate dapibus sapien. Vestibulum est felis, ornare a purus vitae, scelerisque vestibulum diam. Fusce vehicula mi eget velit posuere, quis condimentum mi finibus. Nullam maximus ex nec ex posuere elementum. Cras at efficitur erat. Curabitur sed mauris purus. Aliquam feugiat mi eget purus dapibus, a vulputate nisl feugiat. Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.</p>
+                            <p><a href="#top">Jump to top</a></p>
                         </div>
                         <div>
-                            <h3>Flashcards</h3>
+                            <h3 id="flashcards">Flashcards</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo vel orci porttitor malesuada. Proin sed tempor eros, sit amet dapibus turpis. Praesent vitae elit quis nibh facilisis eleifend. In id viverra tellus, sed varius mauris. Suspendisse vel ultrices urna. Sed sit amet dui et nisl dapibus feugiat sed eget mi. Mauris nunc velit, pulvinar id augue eget, vulputate dapibus sapien. Vestibulum est felis, ornare a purus vitae, scelerisque vestibulum diam. Fusce vehicula mi eget velit posuere, quis condimentum mi finibus. Nullam maximus ex nec ex posuere elementum. Cras at efficitur erat. Curabitur sed mauris purus. Aliquam feugiat mi eget purus dapibus, a vulputate nisl feugiat. Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.</p>
+                            <p><a href="#top">Jump to top</a></p>
+
                         </div>
                         <div>
-                            <h3>Videos</h3>
+                            <h3 id="videos">Videos</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo vel orci porttitor malesuada. Proin sed tempor eros, sit amet dapibus turpis. Praesent vitae elit quis nibh facilisis eleifend. In id viverra tellus, sed varius mauris. Suspendisse vel ultrices urna. Sed sit amet dui et nisl dapibus feugiat sed eget mi. Mauris nunc velit, pulvinar id augue eget, vulputate dapibus sapien. Vestibulum est felis, ornare a purus vitae, scelerisque vestibulum diam. Fusce vehicula mi eget velit posuere, quis condimentum mi finibus. Nullam maximus ex nec ex posuere elementum. Cras at efficitur erat. Curabitur sed mauris purus. Aliquam feugiat mi eget purus dapibus, a vulputate nisl feugiat. Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.</p>
+                            <p><a href="#top">Jump to top</a></p>
+
                         </div>
                         <div>
-                            <h3>Jobs</h3>
+                            <h3 id="jobs">Jobs</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo vel orci porttitor malesuada. Proin sed tempor eros, sit amet dapibus turpis. Praesent vitae elit quis nibh facilisis eleifend. In id viverra tellus, sed varius mauris. Suspendisse vel ultrices urna. Sed sit amet dui et nisl dapibus feugiat sed eget mi. Mauris nunc velit, pulvinar id augue eget, vulputate dapibus sapien. Vestibulum est felis, ornare a purus vitae, scelerisque vestibulum diam. Fusce vehicula mi eget velit posuere, quis condimentum mi finibus. Nullam maximus ex nec ex posuere elementum. Cras at efficitur erat. Curabitur sed mauris purus. Aliquam feugiat mi eget purus dapibus, a vulputate nisl feugiat. Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.</p>
+                            <p><a href="#top">Jump to top</a></p>
+
                         </div>
                     </div>
                 </div>
