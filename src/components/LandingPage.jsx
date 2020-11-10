@@ -21,6 +21,9 @@ const LandingPage = ({ users }) => {
                             <li><a href="/aboutus" className="waves-effect waves-light btn-small light-blue darken-2">About Us</a></li>
                             <li><a href="/dashboard" className="waves-effect waves-light btn-small light-blue darken-2">Dashboard</a></li>
                         </ul>
+                        <ul id="nav-mobile" className="left">
+                            <li><a href="https://github.com/ShaiahWren/Study-App"></a><span className="fab style2 major fa-github" style={{padding : '12px', fontSize : '35px'}}></span></li>
+                        </ul>
                     </div>
                 </nav>
                 <div className='intro'>

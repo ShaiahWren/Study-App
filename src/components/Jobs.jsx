@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Component } from 'react';
 import { Route } from 'react-router-dom';
 
@@ -80,18 +79,6 @@ getJobs = async (jobSearch) => {
   
 };
 
+export default Jobs;
 
  
-=======
-import React from 'react'
-
-const Jobs = () => {
-    return (
-        <>
-            <h1>Jobs</h1>
-        </>
-    )
-}
->>>>>>> 6049806b4c4fa81850dd8107631d5dd3f99bc3a8
-
-export default Jobs;
