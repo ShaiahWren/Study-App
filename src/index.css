@@ -29,8 +29,7 @@ a {
 
 .card {
 	float: center;
-	margin: 1%;
-	word-wrap: break-word;
+	word-wrap: normal;
 }
 
 .card.left {
@@ -43,7 +42,7 @@ a {
 
 .intro-images {
 	margin: 25px;
-	width: 60%;
+	width: 45%;
 	height: auto;
 }
 
@@ -61,13 +60,14 @@ a {
 	margin-left: 15%;
 	margin-right: 15%;
 	margin-top: 3%;
-	word-wrap: break-word;
+	word-wrap: normal;
 	display: flex;
 	flex-direction: row;
 }
 
 .newsImg {
-	max-width: 100%;
+	max-width: 98%;
+	margin: 2%;
 }
 
 .newsCol1 {
@@ -77,6 +77,7 @@ a {
 .newsCol2 {
 	width: 65%;
 	float: right;
+	margin: 0 5% 0 5%;
 }
 
 .newsCol2 h3 {

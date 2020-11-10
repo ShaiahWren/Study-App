@@ -1,7 +1,8 @@
 import React, {useState, useEffect, useRef} from 'react'
 import { Route, Link } from 'react-router-dom';
-import M from 'materialize-css';
 import axios from 'axios';
+import M from 'materialize-css';
+import './Flashcards.css';
 
 //Componenets
 import News from './News';
@@ -119,23 +120,22 @@ const Dashboard = () => {
         <>
             <nav>
                 <div className="nav-wrapper z-depth-0 blue-grey darken-3">
-                    <a href="#" className="brand-logo center">j.DevSpace</a>
+                    <a href="/" className="brand-logo center">j.DevSpace</a>
                     <ul id="nav-mobile" className="right">
                         <li><a href="/aboutus" className="waves-effect waves-light btn-small light-blue darken-2">About Us</a></li>
                         <li><a href="/" className="waves-effect waves-light btn-small light-blue darken-2">Home</a></li>
-
                     </ul>
                 </div>
             </nav>
 
-                <div className='col s12'>
-                    <ul className="tabs dashboard-links blue-grey darken-3">
-                        <li className="tab col s3"><Link className='blue-grey-text text-lighten-5' to="/dashboard">News</Link></li>
-                        <li className="tab col s3"><Link className='blue-grey-text text-lighten-5' to="/dashboard/flashcards">Flashcards</Link></li>
-                        <li className="tab col s3"><Link className='blue-grey-text text-lighten-5' to="/dashboard/video">Videos</Link></li>
-                        <li className="tab col s3"><Link className='blue-grey-text text-lighten-5' to="/dashboard/jobs">Jobs</Link></li>
-                    </ul>
-                </div>
+            <div className='col s12'>
+                <ul className="tabs dashboard-links blue-grey darken-3">
+                    <li className="tab col s3"><Link className='blue-grey-text text-lighten-5' to="/dashboard">News</Link></li>
+                    <li className="tab col s3"><Link className='blue-grey-text text-lighten-5' to="/dashboard/flashcards">Flashcards</Link></li>
+                    <li className="tab col s3"><Link className='blue-grey-text text-lighten-5' to="/dashboard/video">Videos</Link></li>
+                    <li className="tab col s3"><Link className='blue-grey-text text-lighten-5' to="/dashboard/jobs">Jobs</Link></li>
+                </ul>
+            </div>
 
             <Route exact path="/dashboard">
                 <News />
@@ -143,11 +143,11 @@ const Dashboard = () => {
             
             <Route path="/dashboard/flashcards">
                 <div className='col s12'>
-                    <ul className="tabs dashboard-links blue-grey darken-3" onSubmit={handleSubmit}>
-                        <li className='tab col s3 blue-grey-text text-lighten-5' onClick={javascriptButton}>Javascript</li>
-                        <li className='tab col s3 blue-grey-text text-lighten-5' onClick={reactButton}>React</li>
-                        <li className='tab col s3 blue-grey-text text-lighten-5' onClick={pythonButton}>Python</li>
-                    </ul>
+                    <form className="dashboard-links" onSubmit={handleSubmit}>
+                        <button className='waves-effect waves-light btn-small teal darken-1' onClick={javascriptButton}>Javascript</button>
+                        <button className='waves-effect waves-light btn-small teal darken-1' onClick={reactButton}>React</button>
+                        <button className='waves-effect waves-light btn-small teal darken-1' onClick={pythonButton}>Python</button>
+                    </form>
                 </div>
                 <div className="container">
                     <FlashcardList flashcards={flashcards} />
