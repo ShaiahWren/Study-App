@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useEffect} from 'react'
 import { Route } from 'react-router-dom';
 import Dashboard from './Dashboard';
 import { gsap } from 'gsap'
+import M from "materialize-css/dist/js/materialize.min.js";
 
 //Components
 import AboutUs from './AboutUs';
@@ -10,24 +11,37 @@ const LandingPage = ({ users }) => {
 
     gsap.fromTo('div .card', { y: 100, opacity: 0 }, { y: 0, opacity: 1, stagger: 0.1, });
 
+
+    useEffect(() => {
+        var sidenav = document.querySelectorAll(".sidenav");
+        M.Sidenav.init(sidenav, {});
+      }, []);
+    
     return (
         <>
 
             <Route exact path="/">
                 <nav>
                     <div className="nav-wrapper z-depth-0 blue-grey darken-3">
-                        <a href="#" className="brand-logo center">j.DevSpace</a>
-                        <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+                        <a href="#!" className="brand-logo center">j.DevSpace</a>
+                        <a href="#" data-target="mobile-demo" className="sidenav-trigger right"><i className="material-icons">menu</i></a>
 
                         <ul id="nav-mobile" className="right hide-on-med-and-down">
                             <li><a href="/aboutus" className="waves-effect waves-light btn-small light-blue darken-2">About Us</a></li>
                             <li><a href="/dashboard" className="waves-effect waves-light btn-small light-blue darken-2">Dashboard</a></li>
                         </ul>
+
                         <ul id="nav-mobile" className="left">
-                            <li><a href="https://github.com/ShaiahWren/Study-App" target="_blank"><span className="fab style2 major fa-github" style={{padding : '12px', fontSize : '35px'}}></span></a></li>
+                            <li><a href="https://github.com/ShaiahWren/Study-App" target="_blank"><span className="fab style2 major fa-github" style={{ padding: '12px', fontSize: '35px' }}></span></a></li>
                         </ul>
                     </div>
                 </nav>
+
+                <ul id="mobile-demo" className="sidenav">
+                    <li><a href="/aboutus" className="waves-effect waves-light btn-small light-blue darken-2">About Us</a></li>
+                    <li><a href="/dashboard" className="waves-effect waves-light btn-small light-blue darken-2">Dashboard</a></li>
+                </ul>
+
                 <div className='intro'>
                     <h1 id="top">Our Beautiful Study App</h1>
                     <p>This is the description of our app and why we are making it and what problem it solves! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo vel orci porttitor malesuada. Proin sed tempor eros, sit amet dapibus turpis. Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.</p>
