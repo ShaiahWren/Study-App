@@ -1,17 +1,36 @@
-import React from 'react'
-import { Route, Link } from 'react-router-dom';
+import React, { useState, useEffect, useRef } from 'react';
+import './Flashcards.css';
 
+const Flashcard = ({ flashcard }) => {
+	const [ flip, setFlip ] = useState(false);
+	const [ height, setHeight ] = useState('initial');
 
+	const frontEl = useRef();
+	const backEl = useRef();
 
-const Flashcards = () => {
-    return (
-        <>
-            {/* <Route path="/addcard">
-                <AddCard />
-            </Route> */}
+	function setMaxHeight() {
+		const frontHeight = frontEl.current.getBoundingClientRect().height;
+		const backHeight = backEl.current.getBoundingClientRect().height;
+		setHeight(Math.max(frontHeight, backHeight, 100));
+	}
 
-        </>
-    )
-}
+	useEffect(setMaxHeight, [ flashcard.question, flashcard.answer ]);
 
-export default Flashcards;
+	useEffect(() => {
+		window.addEventListener('resize', setMaxHeight);
+		return () => window.removeEventListener('resize', setHeight);
+	}, []);
+
+	return (
+		<div className={`card2 ${flip ? 'flip' : ''}`} style={{ height: height }} onClick={() => setFlip(!flip)}>
+			<div className="front" ref={frontEl}>
+				{flashcard.question}
+			</div>
+			<div className="back" ref={backEl}>
+				{flashcard.answer}
+			</div>
+		</div>
+	);
+};
+
+export default Flashcard;

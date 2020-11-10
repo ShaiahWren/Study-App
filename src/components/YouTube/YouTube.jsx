@@ -3,6 +3,7 @@ import SearchBar from './Searchbar';
 import api from './api';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
+import { gsap } from 'gsap';
 
 class YouTube extends React.Component {
 	state = {
@@ -26,15 +27,17 @@ class YouTube extends React.Component {
 	};
 
 	render() {
+		// gsap.fromTo('div .col.m5', { opacity: 0 }, { opacity: 1, stagger: 0.3, duration: 2 });
+
 		return (
-			<div className="ui container" style={{ marginTop: '1em' }}>
+			<div className="ui container">
 				<SearchBar handleFormSubmit={this.handleSubmit} />
 				<div className="ui grid">
-					<div className="ui row">
-						<div className="left column">
+					<div className="row">
+						<div className="col m7">
 							<VideoDetail video={this.state.selectedVideo} />
 						</div>
-						<div className="right column">
+						<div className="col m5">
 							<VideoList handleVideoSelect={this.handleVideoSelect} videos={this.state.videos} />
 						</div>
 					</div>

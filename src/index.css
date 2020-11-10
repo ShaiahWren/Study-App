@@ -18,65 +18,48 @@ a {
 	text-decoration: inherit; /* no underline */
 }
 
-.into-wrapper {
+.intro {
+	margin: 0 15% 100px 15%;
+}
+
+.intro-wrapper {
 	display: flex;
 	flex-direction: row;
 }
 
 .card {
-	width: 20%;
-	height: 25%;
-	float: left;
-	margin: 2.5%;
+	float: center;
+	margin: 1%;
 	word-wrap: break-word;
 }
 
+.card.left {
+	margin-left: 7%;
+}
+
+.card.right {
+	margin-right: 7%;
+}
+
 .intro-images {
-	border-radius: 50%;
+	margin: 25px;
 	width: 60%;
 	height: auto;
 }
 
 .intro-scroll {
-	margin: 0 auto;
-	width: 100%;
-}
-
-/* Sign-up page */
-
-.card-wrapper > div {
-}
-
-.sign-up-card {
-	width: 25%;
-	height: 25%;
-	/* float: left; */
-	margin: 0 auto;
-	word-wrap: break-word;
-	flex-direction: row;
+	margin: 0 15% 100px 15%;
+	float: left;
 }
 
 /* Dashboard */
 
-.dashboard-links {
-	padding: 18px;
-}
-
-.dash-button {
-	margin: 8px;
-}
-
-.side {
-	width: 150px;
-}
-
 /* News Page */
 
 .newsCard {
-	width: 85%;
-	float: left;
-	margin-left: 7.5%;
-	margin-right: 7.5%;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
 	margin-top: 3%;
 	word-wrap: break-word;
 	display: flex;
@@ -106,6 +89,7 @@ a {
 	display: flex !important;
 	align-items: center !important;
 	cursor: pointer;
+	margin-top: 3px;
 }
 
 .video-item.item img {
@@ -114,9 +98,42 @@ a {
 }
 
 .left.column {
-	width: 500px;
+	max-width: 500px;
 }
 
 .right.column {
-	width: 300px;
+	max-width: 300px;
+}
+
+.container {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-top: 5rem;
+}
+
+/* About Us && Landing Page */
+
+@media (min-width: 320px) {
+	.intro-scroll {
+		display: none;
+	}
+}
+
+.intro-wrapper {
+	flex-direction: column;
+	margin: 0 auto;
+	width: 100%;
+}
+
+@media (min-width: 481px) {
+	.intro-scroll {
+		display: inline;
+	}
+}
+
+.intro-wrapper {
+	flex-direction: column;
+	flex-wrap: wrap;
+	float: left;
 }
