@@ -54,6 +54,10 @@ a {
 	float: left;
 }
 
+.cardMarg {
+	margin: 0 5% 0 5%;
+}
+
 /* Dashboard */
 
 /* News Page */

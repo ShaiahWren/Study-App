@@ -9,6 +9,7 @@ import YouTube from "./YouTube/YouTube";
 import Jobs from "./Jobs";
 import FlashcardList from "./FlashcardList";
 import JobsApi from './JobsApi';
+import Navbar from './Navbar'
 
 let instance = M.Tabs.init();
 
@@ -119,34 +120,10 @@ const Dashboard = () => {
   }
   return (
     <>
-      <nav>
-        <div className="nav-wrapper z-depth-0 blue-grey darken-3">
-          <a href="#" className="brand-logo center">
-            j.DevSpace
-          </a>
-          <ul id="nav-mobile" className="right">
-            <li>
-              <a
-                href="/aboutus"
-                className="waves-effect waves-light btn-small light-blue darken-2"
-              >
-                About Us
-              </a>
-            </li>
-            <li>
-              <a
-                href="/"
-                className="waves-effect waves-light btn-small light-blue darken-2"
-              >
-                Home
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <Navbar />
 
-      <div className="col s12">
-        <ul className="tabs dashboard-links blue-grey darken-3">
+      <div className="col s12 nav-extend">
+        <ul className="tabs dashboard-links nav-extend">
           <li className="tab col s3">
             <Link className="blue-grey-text text-lighten-5" to="/dashboard">
               News
@@ -176,11 +153,11 @@ const Dashboard = () => {
               Jobs
             </Link>
           </li>
-          <li className="tab col s3">
+          {/* <li className="tab col s3">
             <Link className="blue-grey-text text-lighten-5" to="/dashboard/jobApi">
               Jobs Api
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
 
@@ -190,13 +167,13 @@ const Dashboard = () => {
 
       <Route path="/dashboard/flashcards">
         <form className="header" onSubmit={handleSubmit}>
-          <button className="button" onClick={javascriptButton}>
+          <button className="btn-small teal darken-1" onClick={javascriptButton}>
             Javascript
           </button>
-          <button className="button" onClick={reactButton}>
+          <button className="btn-small teal darken-1" onClick={reactButton}>
             React
           </button>
-          <button className="button" onClick={pythonButton}>
+          <button className="btn-small teal darken-1" onClick={pythonButton}>
             Python
           </button>
         </form>

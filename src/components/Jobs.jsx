@@ -44,19 +44,19 @@ class Jobs extends Component {
   render() {
     return (
       <>
-        <Route>
-          <h1>Jobs</h1>
-        </Route>
+
+        <div className="search-bar ui segment">
         <form>
-          <lable>
-            Loading job data...
+          <div className="field container">
+          <label htmlFor="video-search">Jobs Search</label>
             <input
-              type="text"
+              type='text' placeholder='Search' name='job-search'
               onChange={(event) => this._handleChange(event.target.value)}
             />
-          </lable>
+          </div>
         </form>
-        <button type="button" onClick={this._handleSearch}>
+        </div>
+        <button className="waves-effect waves-light btn-small teal darken-1" type="button" onClick={this._handleSearch}>
           Search Jobs
         </button>
         {this.state.jobName.map((article) => {
