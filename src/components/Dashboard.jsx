@@ -177,6 +177,7 @@ const Dashboard = () => {
             Python
           </button>
         </form>
+        <p>Please chose a flashcard deck above to study</p>
         <div className="container">
           <FlashcardList flashcards={flashcards} />
         </div>
@@ -187,9 +188,6 @@ const Dashboard = () => {
       </Route>
 
       <Route path="/dashboard/jobs">
-        <Jobs />
-      </Route>
-      <Route path="/dashboard/jobApi">
         <JobsApi />
       </Route>
     </>
