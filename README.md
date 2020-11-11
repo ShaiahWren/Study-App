@@ -7,10 +7,10 @@ j.devspace is an resource for junior developers that neatly brings together inte
 ## Our Team:
 
 **Luke Brazil:** https://github.com/LukeBrazil/Study-App
-Primary Team Role: PostgreSQL, Lead Back-end development, API testing.
+Primary Team Role: Lead Back-end development, PostgreSQL, API testing.
 
 **Shaiah Emigh-Doyle:** https://github.com/ShaiahWren/Study-App
-Primary Team Role: Back-end Development, Front-end Development, Responsive design. 
+Primary Team Role: Back-end Development, PostgreSQL, Front-end Development, Responsive design. 
 
 **Aliyah Gamble:** https://github.com/AGamble7
 Primary Team Role: Scrum Master, Front-end Development, styling, text content.
