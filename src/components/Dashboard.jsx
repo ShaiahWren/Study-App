@@ -180,7 +180,6 @@ const Dashboard = () => {
         <div className="container">
           <FlashcardList flashcards={flashcards} />
         </div>
-        <FlashcardList flashcards={flashcards} />
       </Route>
 
       <Route path="/dashboard/video">
