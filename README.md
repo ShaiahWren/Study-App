@@ -6,21 +6,23 @@ j.devspace is an resource for junior developer that brings together interview pr
 
 ## Our Team:
 
-Luke Brazil: https://github.com/LukeBrazil/Study-App
+**Luke Brazil:** https://github.com/LukeBrazil/Study-App
 Primary Team Role: PostgreSQL, Lead Back-end development, API testing.
 
-Shaiah Emigh-Doyle: https://github.com/ShaiahWren/Study-App
+**Shaiah Emigh-Doyle:** https://github.com/ShaiahWren/Study-App
 Primary Team Role: Back-end Development, Front-end Development, Responsive design. 
 
-Aliyah Gamble: https://github.com/AGamble7
+**Aliyah Gamble:** https://github.com/AGamble7
 Primary Team Role: Scrum Master, Front-end Development, styling, text content.
 
-Tait Loughridge: https://github.com/TaitLoughridge/Study-App 
+**Tait Loughridge:** https://github.com/TaitLoughridge/Study-App 
 Primary Team Role: Front-end Development, logo and icon extrordinaire, Concept & Design Lead.
 
-Technologies Used: HTML5, CSS/Materialize, JavaScript, React, Node.js, Express, PostgreSQL.
 
-Stretch Goals for the Future: A stretch goal that we are in the process of exploring is a coding console to practice algorithms and coding challenges. 
+## Misc
+**Technologies Used:** HTML5, CSS/Materialize, JavaScript, React, Node.js, Express, PostgreSQL.
+
+**Stretch Goals for the Future:** A stretch goal that we are in the process of exploring is a coding console to practice algorithms and coding challenges. 
 
 
 
