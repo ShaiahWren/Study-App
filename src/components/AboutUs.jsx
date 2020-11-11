@@ -51,10 +51,18 @@ const Signin = () => {
                         <div className="card z-depth-0 blue-grey lighten-5">
                             <img className="intro-images" src="/images/shaiah_profile.jpg" alt="" /> 
                             <h3>Shaiah</h3>
+<<<<<<< HEAD
                             <p><strong>Shaiah Emigh-doyle</strong> is a junior developer based in the NYC area.</p>
                             <a className='squadLinks' href="#" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Portfolio</button></a>
                             <a className='squadLinks' href="https://github.com/ShaiahWren" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Github</button></a>
                             <a className='squadLinks' href="https://www.linkedin.com/in/shaiah-emigh-doyle/" target="_blank"><button className="squadLinks btn-small light-blue darken-2">LinkedIn</button></a>
+=======
+                            <p><strong>Shaiah Emigh-doyle</strong> is a junior developer based in the NYC area dedicated to producing software and excellent user experience. A critical thinker with a passion for learning, an Anthropologist and linguist with international experience, they bring a diverse and unique set of skills to any project or team environment.</p>
+                            
+                            <a className='squadLinks' href="#" target="_blank"><button className="btn-small light-blue darken-2">Portfolio</button></a>
+                            <a className='squadLinks' href="https://github.com/ShaiahWren" target="_blank"><button className="btn-small light-blue darken-2">Github</button></a>
+                            <a className='squadLinks' href="https://www.linkedin.com/in/shaiah-emigh-doyle/" target="_blank"><button className="btn-small light-blue darken-2">LinkedIn</button></a>
+>>>>>>> f4e40660cb8a1305f5c974bb51bde0a95d22de65
                         </div>
                     </div>
                     <div className='col m6 l3'>
