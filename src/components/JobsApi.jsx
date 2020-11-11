@@ -44,12 +44,45 @@ const getPythonJobs = () => {
         setJobsData(response.data)
       });
 }
+const getFullStackJobs = () => {
+    axios
+      .get(
+        "https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?description=full&stack&location=us",
+        { headers: { "Access-Control-Allow-Origin": "*" } }
+      )
+      .then(function (response) {
+        setJobsData(response.data)
+      });
+}
+const getFrontEndJobs = () => {
+    axios
+      .get(
+        "https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?description=front&end&location=us",
+        { headers: { "Access-Control-Allow-Origin": "*" } }
+      )
+      .then(function (response) {
+        setJobsData(response.data)
+      });
+}
+const getBackEndJobs = () => {
+    axios
+      .get(
+        "https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?description=back&end&location=us",
+        { headers: { "Access-Control-Allow-Origin": "*" } }
+      )
+      .then(function (response) {
+        setJobsData(response.data)
+      });
+}
 
   return (
     <div>
     <button onClick={getJavascriptJobs}>JavaScript Jobs</button>
     <button onClick={getReactJobs}>React Jobs</button>
     <button onClick={getPythonJobs}>Python Jobs</button>
+    <button onClick={getFullStackJobs}>Full-Stack Jobs</button>
+    <button onClick={getBackEndJobs}>Back End Jobs</button>
+    <button onClick={getFrontEndJobs}>Front End Jobs</button>
       { jobsData.map((job) => {
                 return <div>
                     <p>{job.title}</p>
