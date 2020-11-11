@@ -58,7 +58,7 @@ a {
 
 /* News Page */
 
-.newsCard {
+/* .newsCard {
 	width: 70%;
 	margin-left: 15%;
 	margin-right: 15%;
@@ -85,6 +85,13 @@ a {
 
 .newsCol2 h3 {
 	font-size: 25px;
+} */
+
+.news-wrapper {
+	width: 100%;
+	margin: 0 auto;
+	justify-content: center;
+	text-align: center;
 }
 
 /* Video Page */
