@@ -46,7 +46,7 @@ const LandingPage = ({ users }) => {
 
                 <div className='intro'>
                     <h1 id="top">Our Beautiful Study App</h1>
-                    <p>This is the description of our app and why we are making it and what problem it solves! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo vel orci porttitor malesuada. Proin sed tempor eros, sit amet dapibus turpis. Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.</p>
+                    <p>j.DevSpace is a resource for junior developers that neatly brings together interview prep, video coding tutorials, and the jobs search in an easy-to-use app. A back-end with express routes stores flashcards for JavaScript, Python, and React fundamentals in a database.</p>
                 </div>
                 <div className="intro-wrapper">
                     <div className="row">
