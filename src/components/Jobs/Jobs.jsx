@@ -27,17 +27,17 @@ class Jobs extends Component {
 
 
 
-getJobs = async (jobSearch) => {
-  const data = await fetch(`https://data.usajobs.gov/api/search?Keyword=${jobSearch}`, {
-    method: "GET",
-    headers: {
-      Host: host,
-      "User-Agent": userAgent,
-      "Authorization-Key": authKey
-    }
-  }).then((response) => response.json());
-  console.log(data.SearchResult.SearchResultItems);
-};
+    getJobs = async (jobSearch) => {
+        const data = await fetch(`https://data.usajobs.gov/api/search?Keyword=${jobSearch}`, {
+            method: "GET",
+            headers: {
+                Host: host,
+                "User-Agent": userAgent,
+                "Authorization-Key": authKey
+            }
+        }).then((response) => response.json());
+        console.log(data.SearchResult.SearchResultItems);
+    };
     // loadData = async () => {
 
     //     const response = await fetch(
@@ -45,7 +45,7 @@ getJobs = async (jobSearch) => {
     //    const data = await response.json();
     //     return data;
     // };
-    
+
 
 
 
@@ -55,31 +55,35 @@ getJobs = async (jobSearch) => {
     render() {
         return (
             <>
+                
+                <div className="search-bar ui segment">
 
-                    <h1>Jobs</h1>
-                <div className='search-bar ui segment'>
-                <form>
-                    <lable>
-                        Loading job data...
-                 <input type="text"
-                onChange={(event) => this._handleChange(event.target.value)} />
-                </lable>
-                </form>
+                    <form>
+                        <div className="field">
+                            <label>
+                                Job Search
+                            </label>
+                            <input type="text" placeholder='Search..' name='job-search'
+                                onChange={(event) => this._handleChange(event.target.value)} />
+
+                        </div>
+                    </form>
                 </div>
-                <button type="button" onClick={this._handleSearch}> 
+                <button className="waves-effect waves-light btn-small teal darken-1" type="button" onClick={this._handleSearch}>
                     Search Jobs
                 </button>
                 {this.state.jobName.map(article => {
-                 return ( <li>{Jobs}</li>
-                 )}
+                    return (<li>{Jobs}</li>
+                    )
+                }
                 )}
             </>
-            )
-        
+        )
+
     };
-  
+
 };
 
 export default Jobs;
 
- 
+

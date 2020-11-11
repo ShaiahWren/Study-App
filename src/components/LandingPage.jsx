@@ -6,23 +6,25 @@ import M from "materialize-css/dist/js/materialize.min.js";
 
 //Components
 import AboutUs from './AboutUs';
+import Navbar from './Navbar';
 
 const LandingPage = ({ users }) => {
 
     gsap.fromTo('div .card', { y: 100, opacity: 0 }, { y: 0, opacity: 1, stagger: 0.1, });
 
 
-    useEffect(() => {
-        var sidenav = document.querySelectorAll(".sidenav");
-        M.Sidenav.init(sidenav, {});
-      }, []);
+    // useEffect(() => {
+    //     var sidenav = document.querySelectorAll(".sidenav");
+    //     M.Sidenav.init(sidenav, {});
+    //   }, []);
     
     return (
         <>
 
             <Route exact path="/">
-                <nav>
-                    <div className="nav-wrapper z-depth-0">
+                <Navbar />
+                {/* <nav>
+                    <div className="nav-wrapper z-depth-0 blue-grey darken-3">
                         <a href="#!" className="brand-logo center">j.DevSpace</a>
                         <a href="#" data-target="mobile-demo" className="sidenav-trigger right"><i className="material-icons">menu</i></a>
 
@@ -40,7 +42,7 @@ const LandingPage = ({ users }) => {
                 <ul id="mobile-demo" className="sidenav">
                     <li><a href="/aboutus" className="waves-effect waves-light btn-small light-blue darken-2">About Us</a></li>
                     <li><a href="/dashboard" className="waves-effect waves-light btn-small light-blue darken-2">Dashboard</a></li>
-                </ul>
+                </ul> */}
 
                 <div className='intro'>
                     <h1 id="top">Your go to place to study</h1>

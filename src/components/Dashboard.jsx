@@ -7,8 +7,9 @@ import './Flashcards.css';
 //Componenets
 import News from './News';
 import YouTube from './YouTube/YouTube';
-import Jobs from './Jobs'
-import FlashcardList from './FlashcardList'
+import Jobs from './Jobs/Jobs'
+import FlashcardList from './FlashcardList';
+import Navbar from './Navbar';
 
 let instance = M.Tabs.init();
 
@@ -118,15 +119,17 @@ const Dashboard = () => {
     }
     return (
         <>
-            <nav>
-                <div className="nav-wrapper z-depth-0">
+
+        <Navbar />
+            {/* <nav>
+                <div className="nav-wrapper z-depth-0 blue-grey darken-3">
                     <a href="/" className="brand-logo center">j.DevSpace</a>
                     <ul id="nav-mobile" className="right">
                         <li><a href="/aboutus" className="waves-effect waves-light btn-small light-blue darken-2">About Us</a></li>
                         <li><a href="/" className="waves-effect waves-light btn-small light-blue darken-2">Home</a></li>
                     </ul>
                 </div>
-            </nav>
+            </nav> */}
 
             <div className='col s12'>
                 <ul className="tabs dashboard-links nav-extend">

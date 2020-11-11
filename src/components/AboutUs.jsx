@@ -1,21 +1,25 @@
 import React from 'react';
 import { gsap } from 'gsap'
 
+//Components
+import Navbar from './Navbar';
+
 const Signin = () => {
 
     gsap.fromTo('div .card', {y:100, opacity:0}, {y:0, opacity:1, stagger:0.1,});
 
     return (
         <>
-            <nav>
-                <div className="nav-wrapper z-depth-0">
+        <Navbar />
+            {/* <nav>
+                <div className="nav-wrapper z-depth-0 blue-grey darken-3">
                     <a href="/" className="brand-logo center">j.DevSpace</a>
                     <ul id="nav-mobile" className="right">
                         <li><a href="/" className="waves-effect waves-light btn-small light-blue darken-2">Home</a></li>
                         <li><a href="/dashboard" className="waves-effect waves-light btn-small light-blue darken-2">Dashboard</a></li>
                     </ul>
                 </div>
-            </nav>
+            </nav> */}
 
             <div className="card-wrapper">
                 <h1>The Squad</h1>
