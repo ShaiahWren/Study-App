@@ -14,10 +14,30 @@ import axios from "axios";
 export default function JobsApi() {
   const [jobsData, setJobsData] = useState([]);
 
-const getJobs = () => {
+const getJavascriptJobs = () => {
     axios
       .get(
-        "https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?description=javascript",
+        "https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?description=javascript&location=us",
+        { headers: { "Access-Control-Allow-Origin": "*" } }
+      )
+      .then(function (response) {
+        setJobsData(response.data)
+      });
+}
+const getReactJobs = () => {
+    axios
+      .get(
+        "https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?description=react&location=us",
+        { headers: { "Access-Control-Allow-Origin": "*" } }
+      )
+      .then(function (response) {
+        setJobsData(response.data)
+      });
+}
+const getPythonJobs = () => {
+    axios
+      .get(
+        "https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?description=python&location=us",
         { headers: { "Access-Control-Allow-Origin": "*" } }
       )
       .then(function (response) {
@@ -27,14 +47,19 @@ const getJobs = () => {
 
   return (
     <div>
+    <button onClick={getJavascriptJobs}>JavaScript Jobs</button>
+    <button onClick={getReactJobs}>React Jobs</button>
+    <button onClick={getPythonJobs}>Python Jobs</button>
       { jobsData.map((job) => {
                 return <div>
                     <p>{job.title}</p>
-                    <ReactMarkdown source={job.description} escapeHtml={false}/>
+                    <p>{job.location}</p>
+                    <p>{job.type}</p>
+                    <p>{job.comapny}</p>
+                    <a href={job.company_url} target='_blank'>Link to Job</a>
+                    
                 </div>
             })}
-            <button onClick={getJobs}>Get Jobs</button>
-      <h1>Hello?</h1>
     </div>
   );
 }
