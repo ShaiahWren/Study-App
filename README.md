@@ -2,7 +2,7 @@
 
 
 ## Overview
-j.devspace is an resource for junior developer that brings together interview prep, video coding tutorials, and the jobs search in one place. A back-end with express routes stores flashcards for JavaScript, Python, and React fundamentals in a database. 
+j.devspace is an resource for junior developers that neatly brings together interview prep, video coding tutorials, and the jobs search in an easy-to-use app. A back-end with express routes stores flashcards for JavaScript, Python, and React fundamentals in a database. 
 
 ## Our Team:
 
