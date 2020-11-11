@@ -12,8 +12,6 @@ import axios from 'axios';
 //   };
 
 export default function JobsApi() {
-	const [ jobsData, setJobsData ] = useState([]);
-
 	const getJavascriptJobs = () => {
 		axios
 			.get(
@@ -37,6 +35,36 @@ export default function JobsApi() {
 		axios
 			.get(
 				'https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?description=python&location=us',
+				{ headers: { 'Access-Control-Allow-Origin': '*' } }
+			)
+			.then(function(response) {
+				setJobsData(response.data);
+			});
+	};
+	const getFullStackJobs = () => {
+		axios
+			.get(
+				'https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?description=full&stack&location=us',
+				{ headers: { 'Access-Control-Allow-Origin': '*' } }
+			)
+			.then(function(response) {
+				setJobsData(response.data);
+			});
+	};
+	const getFrontEndJobs = () => {
+		axios
+			.get(
+				'https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?description=front&end&location=us',
+				{ headers: { 'Access-Control-Allow-Origin': '*' } }
+			)
+			.then(function(response) {
+				setJobsData(response.data);
+			});
+	};
+	const getBackEndJobs = () => {
+		axios
+			.get(
+				'https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?description=back&end&location=us',
 				{ headers: { 'Access-Control-Allow-Origin': '*' } }
 			)
 			.then(function(response) {
