@@ -12,6 +12,8 @@ import axios from 'axios';
 //   };
 
 export default function JobsApi() {
+	const [ jobsData, setJobsData ] = useState([]);
+
 	const getJavascriptJobs = () => {
 		axios
 			.get(
@@ -74,14 +76,23 @@ export default function JobsApi() {
 
 	return (
 		<div>
-			<button className="btn-small teal darken-1" onClick={getJavascriptJobs}>
+			<button className="btn-small teal darken-1 jobBtn" onClick={getJavascriptJobs}>
 				JavaScript Jobs
 			</button>
-			<button className="btn-small teal darken-1" onClick={getReactJobs}>
+			<button className="btn-small teal darken-1 jobBtn" onClick={getReactJobs}>
 				React Jobs
 			</button>
-			<button className="btn-small teal darken-1" onClick={getPythonJobs}>
+			<button className="btn-small teal darken-1 jobBtn" onClick={getPythonJobs}>
 				Python Jobs
+			</button>
+			<button className="btn-small teal darken-1 jobBtn" onClick={getFullStackJobs}>
+				Full-Stack Jobs
+			</button>
+			<button className="btn-small teal darken-1 jobBtn" onClick={getBackEndJobs}>
+				Back End Jobs
+			</button>
+			<button className="btn-small teal darken-1 jobBtn" onClick={getFrontEndJobs}>
+				Front End Jobs
 			</button>
 			{jobsData.map((job) => {
 				return (
