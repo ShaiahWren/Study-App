@@ -45,7 +45,7 @@ const Signin = () => {
                         <div className="card z-depth-0 blue-grey lighten-5">
                             <img className="intro-images" src="/images/shaiah_profile.jpg" alt="" /> 
                             <h3>Shaiah</h3>
-                            <p><strong>Shaiah Emigh-doyle</strong> is a junior developer based in the NYC area.</p>
+                            <p><strong>Shaiah Emigh-doyle</strong> is a junior developer based in the NYC area dedicated to producing software and excellent user experience. A critical thinker with a passion for learning, an Anthropologist and linguist with international experience, they bring a diverse and unique set of skills to any project or team environment.</p>
                         </div>
                     </div>
                     <div className='col m6 l3'>
