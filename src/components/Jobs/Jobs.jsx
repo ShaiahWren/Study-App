@@ -59,7 +59,7 @@ class Jobs extends Component {
                 <div className="search-bar ui segment">
 
                     <form>
-                        <div className="field">
+                        <div className="field container">
                             <label>
                                 Job Search
                             </label>

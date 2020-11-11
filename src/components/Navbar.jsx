@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <>
             <nav>
-                <div className="nav-wrapper z-depth-0 blue-grey darken-3">
+                <div className="nav-wrapper z-depth-0 ">
                     <a href="#!" className="brand-logo center">j.DevSpace</a>
                     <a href="#" data-target="mobile-demo" className="sidenav-trigger right"><i className="material-icons">menu</i></a>
 

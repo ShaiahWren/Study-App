@@ -20,6 +20,8 @@
 	transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
 	padding: 8px;
 	margin: 12px;
+	width: 100%;
+	min-height: 450px;
 }
 
 .card2:hover {

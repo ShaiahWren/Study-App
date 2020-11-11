@@ -116,8 +116,11 @@ a {
 	padding-top: 5rem;
 }
 
+/* NavBar */
+
 nav {
 	background: linear-gradient(#174372, #095ab1);
+	margin: 0;
 }
 
 .nav-extend {
@@ -149,6 +152,10 @@ a img {
 }
 
 /* About Us && Landing Page */
+
+.squadLinks {
+	margin-top: 5px;
+}
 
 @media (min-width: 320px) {
 	.intro-scroll {
