@@ -190,6 +190,12 @@ a img {
 	margin-top: 5px;
 }
 
+.bio {
+	text-align: left;
+	text-indent: 10%;
+	max-width: 300px;
+}
+
 @media (min-width: 320px) {
 	.intro-scroll {
 		display: none;
