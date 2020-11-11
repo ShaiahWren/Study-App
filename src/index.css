@@ -138,3 +138,28 @@ a {
 	flex-wrap: wrap;
 	float: left;
 }
+
+nav {
+	background: linear-gradient(#174372, #095ab1);
+}
+
+.nav-extend {
+	background-color: #095ab1;
+}
+
+h1 {
+	color: #174372;
+}
+
+h2 {
+	color: #174372;
+}
+
+h3 {
+	color: #174372;
+}
+
+a img {
+	max-width: 5%;
+	height: auto;
+}

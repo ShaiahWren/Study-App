@@ -41,7 +41,7 @@ class News extends Component {
              </form> */}
              {this.state.newsLoads.map(article => {
                  return ( 
-                    <div className='newsCard card'>
+                    <div className='newsCard card z-depth-0'>
                         <div className='newsCol1'>
                             <a href={article.url}><img className='newsImg' src={article.urlToImage}></img></a>
                         </div>

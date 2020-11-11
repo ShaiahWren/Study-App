@@ -22,7 +22,7 @@ const LandingPage = ({ users }) => {
 
             <Route exact path="/">
                 <nav>
-                    <div className="nav-wrapper z-depth-0 blue-grey darken-3">
+                    <div className="nav-wrapper z-depth-0">
                         <a href="#!" className="brand-logo center">j.DevSpace</a>
                         <a href="#" data-target="mobile-demo" className="sidenav-trigger right"><i className="material-icons">menu</i></a>
 
@@ -51,28 +51,28 @@ const LandingPage = ({ users }) => {
                         <div className="col m6 l3">
                             <div className="card z-depth-0 blue-grey lighten-5">
                                 <img className="intro-images" src="/images/flashcards.png" alt="" />
-                                <h2><a href="#news">News</a></h2>
+                                <h3><a href="#news">News</a></h3>
                                 {/* <p>A place for sharing news and resources about projects, tech, etc!</p> */}
                             </div>
                         </div>
                         <div className="col m6 l3">
                             <div className="card z-depth-0 blue-grey lighten-5">
                                 <img className="intro-images" src="/images/flashcards.png" alt="" />
-                                <h2><a href="#flashcards">Flashcards</a></h2>
+                                <h3><a href="#flashcards">Flashcards</a></h3>
                                 {/* <p>Quiz yourself on JS, React, etc!</p> */}
                             </div>
                         </div>
                         <div className="col m6 l3">
                             <div className="card z-depth-0 blue-grey lighten-5">
                                 <img className="intro-images" src="/images/flashcards.png" alt="" />
-                                <h2><a href="#videos">Videos</a></h2>
+                                <h3><a href="#videos">Videos</a></h3>
                                 {/* <p>Video tutorials and more</p> */}
                             </div>
                         </div>
                         <div className="col m6 l3">
                             <div className="card z-depth-0 blue-grey lighten-5">
                                 <img className="intro-images" src="/images/flashcards.png" alt="" />
-                                <h2><a href="#jobs">Jobs</a></h2>
+                                <h3><a href="#jobs">Jobs</a></h3>
                                 {/* <p>Job info for junior devs</p> */}
                             </div>
                         </div>
@@ -81,26 +81,26 @@ const LandingPage = ({ users }) => {
                 <div className="intro-scroll">
                     <div>
                         <div>
-                            <h3 id="news">News</h3>
+                            <h2 id="news">News</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo vel orci porttitor malesuada. Proin sed tempor eros, sit amet dapibus turpis. Praesent vitae elit quis nibh facilisis eleifend. In id viverra tellus, sed varius mauris. Suspendisse vel ultrices urna. Sed sit amet dui et nisl dapibus feugiat sed eget mi. Mauris nunc velit, pulvinar id augue eget, vulputate dapibus sapien. Vestibulum est felis, ornare a purus vitae, scelerisque vestibulum diam. Fusce vehicula mi eget velit posuere, quis condimentum mi finibus. Nullam maximus ex nec ex posuere elementum. Cras at efficitur erat. Curabitur sed mauris purus. Aliquam feugiat mi eget purus dapibus, a vulputate nisl feugiat. Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.</p>
-                            <p><a href="#top">Jump to top</a></p>
+                            <p><a href="#top"><img className='backToTop' src="/images/back-to-top.png" alt="back to top"/></a></p>
                         </div>
                         <div>
-                            <h3 id="flashcards">Flashcards</h3>
+                            <h2 id="flashcards">Flashcards</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo vel orci porttitor malesuada. Proin sed tempor eros, sit amet dapibus turpis. Praesent vitae elit quis nibh facilisis eleifend. In id viverra tellus, sed varius mauris. Suspendisse vel ultrices urna. Sed sit amet dui et nisl dapibus feugiat sed eget mi. Mauris nunc velit, pulvinar id augue eget, vulputate dapibus sapien. Vestibulum est felis, ornare a purus vitae, scelerisque vestibulum diam. Fusce vehicula mi eget velit posuere, quis condimentum mi finibus. Nullam maximus ex nec ex posuere elementum. Cras at efficitur erat. Curabitur sed mauris purus. Aliquam feugiat mi eget purus dapibus, a vulputate nisl feugiat. Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.</p>
-                            <p><a href="#top">Jump to top</a></p>
+                            <p><a href="#top"><img className='backToTop' src="/images/back-to-top.png" alt="back to top"/></a></p>
 
                         </div>
                         <div>
-                            <h3 id="videos">Videos</h3>
+                            <h2 id="videos">Videos</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo vel orci porttitor malesuada. Proin sed tempor eros, sit amet dapibus turpis. Praesent vitae elit quis nibh facilisis eleifend. In id viverra tellus, sed varius mauris. Suspendisse vel ultrices urna. Sed sit amet dui et nisl dapibus feugiat sed eget mi. Mauris nunc velit, pulvinar id augue eget, vulputate dapibus sapien. Vestibulum est felis, ornare a purus vitae, scelerisque vestibulum diam. Fusce vehicula mi eget velit posuere, quis condimentum mi finibus. Nullam maximus ex nec ex posuere elementum. Cras at efficitur erat. Curabitur sed mauris purus. Aliquam feugiat mi eget purus dapibus, a vulputate nisl feugiat. Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.</p>
-                            <p><a href="#top">Jump to top</a></p>
+                            <p><a href="#top"><img className='backToTop' src="/images/back-to-top.png" alt="back to top"/></a></p>
 
                         </div>
                         <div>
-                            <h3 id="jobs">Jobs</h3>
+                            <h2 id="jobs">Jobs</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo vel orci porttitor malesuada. Proin sed tempor eros, sit amet dapibus turpis. Praesent vitae elit quis nibh facilisis eleifend. In id viverra tellus, sed varius mauris. Suspendisse vel ultrices urna. Sed sit amet dui et nisl dapibus feugiat sed eget mi. Mauris nunc velit, pulvinar id augue eget, vulputate dapibus sapien. Vestibulum est felis, ornare a purus vitae, scelerisque vestibulum diam. Fusce vehicula mi eget velit posuere, quis condimentum mi finibus. Nullam maximus ex nec ex posuere elementum. Cras at efficitur erat. Curabitur sed mauris purus. Aliquam feugiat mi eget purus dapibus, a vulputate nisl feugiat. Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.</p>
-                            <p><a href="#top">Jump to top</a></p>
+                            <p><a href="#top"><img className='backToTop' src="/images/back-to-top.png" alt="back to top"/></a></p>
 
                         </div>
                     </div>

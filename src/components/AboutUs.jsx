@@ -8,7 +8,7 @@ const Signin = () => {
     return (
         <>
             <nav>
-                <div className="nav-wrapper z-depth-0 blue-grey darken-3">
+                <div className="nav-wrapper z-depth-0">
                     <a href="/" className="brand-logo center">j.DevSpace</a>
                     <ul id="nav-mobile" className="right">
                         <li><a href="/" className="waves-effect waves-light btn-small light-blue darken-2">Home</a></li>
