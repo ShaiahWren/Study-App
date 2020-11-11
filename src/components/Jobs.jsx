@@ -55,9 +55,9 @@ getJobs = async (jobSearch) => {
     render() {
         return (
             <>
-                <Route>
+
                     <h1>Jobs</h1>
-                </Route>
+                <div className='search-bar ui segment'>
                 <form>
                     <lable>
                         Loading job data...
@@ -65,6 +65,7 @@ getJobs = async (jobSearch) => {
                 onChange={(event) => this._handleChange(event.target.value)} />
                 </lable>
                 </form>
+                </div>
                 <button type="button" onClick={this._handleSearch}> 
                     Search Jobs
                 </button>

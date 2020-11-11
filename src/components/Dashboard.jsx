@@ -144,11 +144,12 @@ const Dashboard = () => {
             <Route path="/dashboard/flashcards">
                 <div className='col s12'>
                     <form className="dashboard-links" onSubmit={handleSubmit}>
-                        <button className='waves-effect waves-light btn-small teal darken-1' onClick={javascriptButton}>Javascript</button>
-                        <button className='waves-effect waves-light btn-small teal darken-1' onClick={reactButton}>React</button>
-                        <button className='waves-effect waves-light btn-small teal darken-1' onClick={pythonButton}>Python</button>
+                        <button className='btn-small teal darken-1' onClick={javascriptButton}>Javascript</button>
+                        <button className='btn-small teal darken-1' onClick={reactButton}>React</button>
+                        <button className='btn-small teal darken-1' onClick={pythonButton}>Python</button>
                     </form>
                 </div>
+                <p>Please chose a flashcard category above to study</p>
                 <div className="container">
                     <FlashcardList flashcards={flashcards} />
                 </div>

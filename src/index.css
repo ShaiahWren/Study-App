@@ -19,12 +19,15 @@ a {
 }
 
 .intro {
-	margin: 0 15% 100px 15%;
+	margin: 0 15% 5% 15%;
 }
 
 .intro-wrapper {
 	display: flex;
 	flex-direction: row;
+	float: inherit;
+	width: 90%;
+	margin: 0 5% 0 5%;
 }
 
 .card {
@@ -113,32 +116,6 @@ a {
 	padding-top: 5rem;
 }
 
-/* About Us && Landing Page */
-
-@media (min-width: 320px) {
-	.intro-scroll {
-		display: none;
-	}
-}
-
-.intro-wrapper {
-	flex-direction: column;
-	margin: 0 auto;
-	width: 100%;
-}
-
-@media (min-width: 481px) {
-	.intro-scroll {
-		display: inline;
-	}
-}
-
-.intro-wrapper {
-	flex-direction: column;
-	flex-wrap: wrap;
-	float: left;
-}
-
 nav {
 	background: linear-gradient(#174372, #095ab1);
 }
@@ -149,17 +126,49 @@ nav {
 
 h1 {
 	color: #174372;
+	font-family: 'Carter One', cursive;
 }
 
 h2 {
 	color: #174372;
+	font-family: 'Carter One', cursive;
 }
 
 h3 {
 	color: #174372;
+	font-family: 'Carter One', cursive;
 }
 
 a img {
 	max-width: 5%;
 	height: auto;
 }
+
+.descriptions {
+	margin-top: 15%;
+}
+
+/* About Us && Landing Page */
+
+@media (min-width: 320px) {
+	.intro-scroll {
+		display: none;
+	}
+}
+
+/* .intro-wrapper {
+	flex-direction: column;
+	width: 100%;
+} */
+
+@media (min-width: 481px) {
+	.intro-scroll {
+		display: inline;
+	}
+}
+
+/* .intro-wrapper {
+	flex-direction: column;
+	flex-wrap: wrap;
+	float: left;
+} */
