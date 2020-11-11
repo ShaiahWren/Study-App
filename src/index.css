@@ -62,7 +62,7 @@ a {
 
 /* News Page */
 
-/* .newsCard {
+.newsCard {
 	width: 70%;
 	margin-left: 15%;
 	margin-right: 15%;
@@ -72,9 +72,12 @@ a {
 	flex-direction: row;
 }
 
+
+
 .newsImg {
-	max-width: 98%;
-	margin: 2%;
+	max-width: 100%;
+	max-height: auto;
+
 }
 
 .newsCol1 {
@@ -89,10 +92,11 @@ a {
 
 .newsCol2 h3 {
 	font-size: 25px;
-} */
+}
 
-.news-wrapper {
+.news-wrap {
 	width: 100%;
+	max-width: 800px;
 	margin: 0 auto;
 	justify-content: center;
 	text-align: center;
@@ -149,6 +153,11 @@ h2 {
 }
 
 h3 {
+	color: #174372;
+	font-family: 'Carter One', cursive;
+}
+
+h4 {
 	color: #174372;
 	font-family: 'Carter One', cursive;
 }

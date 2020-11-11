@@ -38,23 +38,20 @@ class News extends Component {
 
                 {this.state.newsLoads.map(article => {
                     return (
-                        <div className="news-wrapper">
-                        <div className="row">
-                            <div class="col s12 m7">
-                                <div className="card center">
-                                    <div class="card-image">
-                                        <img src={article.urlToImage} />
-                                    </div>
-                                    <div class="card-content">
-                                        <h2 className="card-title" href={article.url} target="_blank">{article.title}</h2>
+                        
 
-                                        <p>{article.description}</p>
-                                    </div>
+                        <Row className="news-wrap">
+                            <Col m={10} s={10} l={10} offset="s1 m1 l1">
+                                <Card>
+                                    <img className="newsImg" src={article.urlToImage}></img>
+                                    <a href={article.url} target="_blank">
+                                        <h4>{article.title}</h4>
+                                    </a>
+                                    <p>{article.description}</p>
+                                </Card>
+                            </Col>
+                        </Row>
 
-                                </div>
-                            </div>
-                        </div>
-                        </div>
 
 
 
