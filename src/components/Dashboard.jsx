@@ -6,7 +6,6 @@ import axios from "axios";
 //Componenets
 import News from "./News";
 import YouTube from "./YouTube/YouTube";
-import Jobs from "./Jobs";
 import FlashcardList from "./FlashcardList";
 import JobsApi from './JobsApi';
 import Navbar from './Navbar'
@@ -15,16 +14,9 @@ let instance = M.Tabs.init();
 
 const Dashboard = () => {
   const [flashcards, setFlashcards] = useState([]);
-  const [categories, setCategories] = useState([]);
 
   const categoryEl = useRef();
   const amountEl = useRef();
-
-  useEffect(() => {
-    axios.get("https://opentdb.com/api_category.php").then((res) => {
-      setCategories(res.data.trivia_categories);
-    });
-  });
 
   useEffect(() => {
     axios

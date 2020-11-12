@@ -40,10 +40,10 @@ class News extends Component {
                     return (
                         
 
-                        <Row className="news-wrap">
+                        <Row className="news-wrap" key={article.url}>
                             <Col m={10} s={10} l={10} offset="s1 m1 l1">
                                 <Card>
-                                    <img className="newsImg" src={article.urlToImage}></img>
+                                    <img className="newsImg" src={article.urlToImage} alt={article.title}></img>
                                     <a href={article.url} target="_blank">
                                         <h4>{article.title}</h4>
                                     </a>
