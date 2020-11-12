@@ -23,7 +23,7 @@ class News extends Component {
 
     loadData = async () => {
         const response = await fetch(
-            `https://newsapi.org/v2/everything?q=programming&apiKey=fd362930e3b74a278a7cff2c0cf8b3f9`);
+            `https://gnews.io/api/v4/search?q=programming&token=b2c3330268d125f89f9516e8d8388da3&max=10`);
         const data = await response.json();
         return data;
     };
