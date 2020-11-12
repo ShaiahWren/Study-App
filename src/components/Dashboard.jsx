@@ -8,7 +8,8 @@ import News from "./News";
 import YouTube from "./YouTube/YouTube";
 import FlashcardList from "./FlashcardList";
 import JobsApi from './JobsApi';
-import Navbar from './Navbar'
+import Navbar from './Navbar';
+import NewsApi from './NewsApi'
 
 let instance = M.Tabs.init();
 
@@ -154,7 +155,7 @@ const Dashboard = () => {
       </div>
 
       <Route exact path="/dashboard">
-        <News />
+        <NewsApi />
       </Route>
 
       <Route path="/dashboard/flashcards">
