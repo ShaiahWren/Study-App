@@ -28,6 +28,7 @@ a {
 	margin: auto;
 	/* text-indent: 10%; */
 	text-align: left;
+	font-size: large;
 }
 
 .intro-title {
@@ -72,6 +73,16 @@ a {
 
 .cardMarg {
 	margin: 0 5% 0 5%;
+	font-size: large;
+}
+p.cardMarg {
+	text-align: left;
+	
+}
+
+.topic {
+	font-size: larger;
+	font-weight: bolder;
 }
 
 /* Dashboard */
@@ -187,7 +198,10 @@ a img {
 }
 
 .descriptions {
-	margin-top: 15%;
+	/* margin-top: 15%; */
+	margin: 100px auto;
+	max-width: 700px;
+	width: 100%;
 }
 
 /* Jobs */
