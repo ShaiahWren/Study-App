@@ -24,10 +24,9 @@ a {
 
 .intro-para {
 	/* width: 300px; */
-	max-width: 500px;
-	margin: auto;
-	/* text-indent: 10%; */
-	text-align: left;
+	margin: 0 10% 0 10%;
+	text-indent: 10%;
+	text-align: center;
 	font-size: large;
 }
 
@@ -39,8 +38,12 @@ a {
 	display: flex;
 	flex-direction: row;
 	float: inherit;
-	width: 90%;
-	margin: 0 5% 0 5%;
+	width: 82%;
+	margin: 0 9% 0 9%;
+}
+
+.backToTop {
+	padding-bottom: 12px;
 }
 
 .backToTop {
@@ -74,10 +77,6 @@ a {
 .cardMarg {
 	margin: 0 5% 0 5%;
 	font-size: large;
-}
-p.cardMarg {
-	text-align: left;
-	
 }
 
 .topic {
@@ -174,22 +173,26 @@ nav {
 
 h1 {
 	color: #174372;
-	font-family: 'Carter One', cursive;
+	font-family: 'Acme', sans-serif;
 }
 
 h2 {
 	color: #174372;
-	font-family: 'Carter One', cursive;
+	font-family: 'Acme', sans-serif;
 }
 
 h3 {
 	color: #174372;
-	font-family: 'Carter One', cursive;
+	font-family: 'Acme', sans-serif;
 }
 
 h4 {
 	color: #174372;
-	font-family: 'Carter One', cursive;
+	font-family: 'Acme', sans-serif;
+}
+
+.brand-logo {
+	font-family: 'Acme', sans-serif;
 }
 
 a img {
@@ -198,9 +201,7 @@ a img {
 }
 
 .descriptions {
-	/* margin-top: 15%; */
 	margin: 100px auto;
-	max-width: 700px;
 	width: 100%;
 }
 

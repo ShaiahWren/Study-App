@@ -1,8 +1,7 @@
-import React, { useEffect} from 'react'
+
 import { Route } from 'react-router-dom';
 import Dashboard from './Dashboard';
 import { gsap } from 'gsap'
-import M from "materialize-css/dist/js/materialize.min.js";
 
 //Components
 import AboutUs from './AboutUs';
@@ -11,12 +10,6 @@ import Navbar from './Navbar';
 const LandingPage = ({ users }) => {
 
     gsap.fromTo('div .card', { y: 100, opacity: 0 }, { y: 0, opacity: 1, stagger: 0.1, });
-
-
-    // useEffect(() => {
-    //     var sidenav = document.querySelectorAll(".sidenav");
-    //     M.Sidenav.init(sidenav, {});
-    //   }, []);
     
     return (
         <>
@@ -75,7 +68,7 @@ const LandingPage = ({ users }) => {
                         </div>
                         <div className='descriptions card z-depth-0'>
                             <h2 className="bullot" id="flashcards">Flashcards</h2>
-                            <p className='cardMarg'>The <strong className="topic">FlashCard</strong> feature helps junior developers strengthen foundational concepts in coding languages and libraries: Python, JavaScript, and React. Critical thinking and problem-solving are important when having technical interviews, reading others code, and debugging. They both help junior developers engage with the why question of a problem before jumping right to the answer. As a junior developer or developer at any stage it is important to have a skill that allows you to analyze your work, others work etc. Using the flash card component allows you the space to do that before rushing into an ineffective or incomplete solution. </p>
+                            <p className='cardMarg'>The <strong className='topic'>FlashCard</strong> feature helps junior developers strengthen foundational concepts in coding languages and libraries: Python, JavaScript, and React. Critical thinking and problem-solving are important when having technical interviews, reading others code, and debugging. They both help junior developers engage with the why question of a problem before jumping right to the answer. As a junior developer or developer at any stage it is important to have a skill that allows you to analyze your work, others work etc. Using the flash card component allows you the space to do that before rushing into an ineffective or incomplete solution. </p>
                             <p><a href="#top"><img className='backToTop' src="/images/back-to-top.png" alt="back to top"/></a></p>
                         </div>
                         <div className='descriptions card z-depth-0'>
