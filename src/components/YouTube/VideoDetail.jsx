@@ -4,9 +4,9 @@ const VideoDetail = ({ video }) => {
 	if (!video) {
 		return (
 			<div>
-				<h1>Enter search keyword to load...</h1>
+				{/* <h1>Explore coding tutorials, lofi music, and more! </h1> */}
 				<br />
-				<p style={{ fontSize: '25px' }}>Search bla bla blablabla</p>
+				<p style={{ fontSize: '25px' }}></p>
 			</div>
 		);
 	}

@@ -113,6 +113,12 @@ a {
 
 /* Video Page */
 
+.video-intro {
+	max-width: 550px;
+	margin: auto;
+	width: 100%;
+}
+
 .video-item {
 	display: flex !important;
 	align-items: center !important;
