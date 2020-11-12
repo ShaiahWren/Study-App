@@ -10,7 +10,7 @@ export default function NewsApi() {
     useEffect(() => {
         axios
             .get(
-                'https://gnews.io/api/v4/search?q=tech&token=b2c3330268d125f89f9516e8d8388da3&max=10'
+                // 'https://gnews.io/api/v4/search?q=tech&token=b2c3330268d125f89f9516e8d8388da3&max=10'
             )
             .then(function(response) {
                 setNewsData(response.data.articles);
@@ -20,7 +20,7 @@ export default function NewsApi() {
     const getTechNews = () => {
         axios
             .get(
-                'https://gnews.io/api/v4/search?q=tech&token=b2c3330268d125f89f9516e8d8388da3&max=10'
+                // 'https://gnews.io/api/v4/search?q=tech&token=b2c3330268d125f89f9516e8d8388da3&max=10'
             )
             .then(function(response) {
                 setNewsData(response.data.articles);
@@ -29,7 +29,7 @@ export default function NewsApi() {
     const getProgrammingNews = () => {
         axios
             .get(
-                'https://gnews.io/api/v4/search?q=programming&token=b2c3330268d125f89f9516e8d8388da3&max=10'
+                // 'https://gnews.io/api/v4/search?q=programming&token=b2c3330268d125f89f9516e8d8388da3&max=10'
             )
             .then(function(response) {
                 setNewsData(response.data.articles);
@@ -38,7 +38,7 @@ export default function NewsApi() {
     const getJavascriptNews = () => {
 		axios
 			.get(
-				'https://gnews.io/api/v4/search?q=javascript&token=b2c3330268d125f89f9516e8d8388da3&max=10'
+				// 'https://gnews.io/api/v4/search?q=javascript&token=b2c3330268d125f89f9516e8d8388da3&max=10'
 			)
 			.then(function(response) {
 				setNewsData(response.data.articles);
@@ -47,7 +47,7 @@ export default function NewsApi() {
 	const getPythonNews = () => {
 		axios
 			.get(
-				'https://gnews.io/api/v4/search?q=programming&token=b2c3330268d125f89f9516e8d8388da3&max=10'
+				// 'https://gnews.io/api/v4/search?q=programming&token=b2c3330268d125f89f9516e8d8388da3&max=10'
 			)
 			.then(function(response) {
 				setNewsData(response.data.articles);
