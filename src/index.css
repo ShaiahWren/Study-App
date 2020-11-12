@@ -72,9 +72,12 @@ a {
 	flex-direction: row;
 }
 
+
+
 .newsImg {
-	max-width: 98%;
-	margin: 2%;
+	max-width: 100%;
+	max-height: auto;
+
 }
 
 .newsCol1 {
@@ -89,6 +92,14 @@ a {
 
 .newsCol2 h3 {
 	font-size: 25px;
+}
+
+.news-wrap {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	justify-content: center;
+	text-align: center;
 }
 
 /* Video Page */
@@ -146,6 +157,11 @@ h3 {
 	font-family: 'Carter One', cursive;
 }
 
+h4 {
+	color: #174372;
+	font-family: 'Carter One', cursive;
+}
+
 a img {
 	max-width: 5%;
 	height: auto;
@@ -172,6 +188,12 @@ a img {
 
 .squadLinks {
 	margin-top: 5px;
+}
+
+.bio {
+	text-align: left;
+	text-indent: 10%;
+	max-width: 300px;
 }
 
 @media (min-width: 320px) {
