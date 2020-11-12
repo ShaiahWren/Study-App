@@ -44,6 +44,8 @@ a {
 
 .backToTop {
 	padding-bottom: 12px;
+	max-width: 5%;
+	height: auto;
 }
 
 .backToTop {
@@ -67,6 +69,8 @@ a {
 	margin: 0 10px 0 10px;
 	width: 80%;
 	height: auto;
+	max-width: auto;
+	max-height: 300px;
 }
 
 .intro-scroll {
@@ -193,11 +197,6 @@ h4 {
 
 .brand-logo {
 	font-family: 'Acme', sans-serif;
-}
-
-a img {
-	max-width: 5%;
-	height: auto;
 }
 
 .descriptions {
