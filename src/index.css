@@ -46,6 +46,10 @@ a {
 	padding-bottom: 12px;
 }
 
+.backToTop {
+	padding-bottom: 12px;
+}
+
 .card {
 	float: center;
 	word-wrap: normal;
@@ -122,6 +126,12 @@ a {
 }
 
 /* Video Page */
+
+.video-intro {
+	max-width: 550px;
+	margin: auto;
+	width: 100%;
+}
 
 .video-item {
 	display: flex !important;
