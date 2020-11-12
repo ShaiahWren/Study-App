@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Study-App/static/css/main.057716ab.chunk.css",
+    "main.js": "/Study-App/static/js/main.0dc40ae8.chunk.js",
+    "main.js.map": "/Study-App/static/js/main.0dc40ae8.chunk.js.map",
+    "runtime-main.js": "/Study-App/static/js/runtime-main.b83146f1.js",
+    "runtime-main.js.map": "/Study-App/static/js/runtime-main.b83146f1.js.map",
+    "static/js/2.488c05f3.chunk.js": "/Study-App/static/js/2.488c05f3.chunk.js",
+    "static/js/2.488c05f3.chunk.js.map": "/Study-App/static/js/2.488c05f3.chunk.js.map",
+    "static/js/3.f34d57ce.chunk.js": "/Study-App/static/js/3.f34d57ce.chunk.js",
+    "static/js/3.f34d57ce.chunk.js.map": "/Study-App/static/js/3.f34d57ce.chunk.js.map",
+    "index.html": "/Study-App/index.html",
+    "static/css/main.057716ab.chunk.css.map": "/Study-App/static/css/main.057716ab.chunk.css.map",
+    "static/js/2.488c05f3.chunk.js.LICENSE.txt": "/Study-App/static/js/2.488c05f3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b83146f1.js",
+    "static/js/2.488c05f3.chunk.js",
+    "static/css/main.057716ab.chunk.css",
+    "static/js/main.0dc40ae8.chunk.js"
+  ]
+}
