@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import M from "materialize-css/dist/js/materialize.min.js";
 
 
@@ -11,13 +12,13 @@ const Navbar = () => {
         <>
             <nav>
                 <div className="nav-wrapper z-depth-0 ">
-                    <a href="#!" className="brand-logo center">j.DevSpace</a>
+                    <a href="/" className="brand-logo center">j.DevSpace</a>
                     <a href="#" data-target="mobile-demo" className="sidenav-trigger right"><i className="material-icons">menu</i></a>
 
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
-                        <li><a href="/dashboard" className="waves-effect waves-light btn-small light-blue darken-2">Dashboard</a></li>
-                        <li><a href="/aboutus" className="waves-effect waves-light btn-small light-blue darken-2">Team</a></li>
-                        <li><a href="/" className="waves-effect waves-light btn-small light-blue darken-2">Home</a></li>
+                        <li><Link to="/dashboard" className="waves-effect waves-light btn-small light-blue darken-2">Dashboard</Link></li>
+                        <li><Link to="/aboutus" className="waves-effect waves-light btn-small light-blue darken-2">Team</Link></li>
+                        <li><Link to="/" className="waves-effect waves-light btn-small light-blue darken-2">Home</Link></li>
 
                     </ul>
 
@@ -28,9 +29,9 @@ const Navbar = () => {
             </nav>
 
             <ul id="mobile-demo" className="sidenav">
-                <li><a href="/dashboard" className="waves-effect waves-light btn-small light-blue darken-2">Dashboard</a></li>
-                <li><a href="/aboutus" className="waves-effect waves-light btn-small light-blue darken-2">Team</a></li>
-                <li><a href="/" className="waves-effect waves-light btn-small light-blue darken-2">Home</a></li>
+                <li><Link to="/dashboard" className="waves-effect waves-light btn-small light-blue darken-2">Dashboard</Link></li>
+                <li><Link to="/aboutus" className="waves-effect waves-light btn-small light-blue darken-2">Team</Link></li>
+                <li><Link to="/" className="waves-effect waves-light btn-small light-blue darken-2">Home</Link></li>
 
             </ul>
 
