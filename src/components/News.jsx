@@ -23,7 +23,7 @@ class News extends Component {
 
     loadData = async () => {
         const response = await fetch(
-            `http://newsapi.org/v2/everything?q=programming&apiKey=fd362930e3b74a278a7cff2c0cf8b3f9`);
+            `https://gnews.io/api/v4/search?q=programming&token=b2c3330268d125f89f9516e8d8388da3&max=10`);
         const data = await response.json();
         return data;
     };
@@ -40,10 +40,10 @@ class News extends Component {
                     return (
                         
 
-                        <Row className="news-wrap">
+                        <Row className="news-wrap" key={article.url}>
                             <Col m={10} s={10} l={10} offset="s1 m1 l1">
                                 <Card>
-                                    <img className="newsImg" src={article.urlToImage}></img>
+                                    <img className="newsImg" src={article.urlToImage} alt={article.title}></img>
                                     <a href={article.url} target="_blank">
                                         <h4>{article.title}</h4>
                                     </a>
