@@ -32,29 +32,29 @@ const LandingPage = ({ users }) => {
                     <div className="row">
                         <div className="col m6 l3">
                             <div className="card z-depth-0 blue-grey lighten-5">
-                                <img className="intro-images" src="/images/flashcards.png" alt="" />
-                                <h3><a href="#news">News</a></h3>
+                                <img className="intro-images" src="/images/news.png" alt="" />
+                                
                                 {/* <p>A place for sharing news and resources about projects, tech, etc!</p> */}
                             </div>
                         </div>
                         <div className="col m6 l3">
                             <div className="card z-depth-0 blue-grey lighten-5">
                                 <img className="intro-images" src="/images/flashcards.png" alt="" />
-                                <h3><a href="#flashcards">Flashcards</a></h3>
+                                
                                 {/* <p>Quiz yourself on JS, React, etc!</p> */}
                             </div>
                         </div>
                         <div className="col m6 l3">
                             <div className="card z-depth-0 blue-grey lighten-5">
-                                <img className="intro-images" src="/images/flashcards.png" alt="" />
-                                <h3><a href="#videos">Videos</a></h3>
+                                <img className="intro-images" src="/images/video.png" alt="" />
+                                
                                 {/* <p>Video tutorials and more</p> */}
                             </div>
                         </div>
                         <div className="col m6 l3">
                             <div className="card z-depth-0 blue-grey lighten-5">
-                                <img className="intro-images" src="/images/flashcards.png" alt="" />
-                                <h3><a href="#jobs">Jobs</a></h3>
+                                <img className="intro-images" src="/images/jobs.png" alt="" />
+                                
                                 {/* <p>Job info for junior devs</p> */}
                             </div>
                         </div>

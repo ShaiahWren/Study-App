@@ -44,8 +44,8 @@ a {
 }
 
 .intro-images {
-	margin: 25px;
-	width: 45%;
+	margin: 0 10px 0 10px;
+	width: 80%;
 	height: auto;
 }
 
@@ -72,12 +72,9 @@ a {
 	flex-direction: row;
 }
 
-
-
 .newsImg {
 	max-width: 100%;
 	max-height: auto;
-
 }
 
 .newsCol1 {
