@@ -52,7 +52,7 @@ const Signin = () => {
                             <img className="intro-images" src="/images/shaiah_profile.jpg" alt="" />
                             <h3>Shaiah</h3>
                             <p className="bio"><strong>Shaiah Emigh-doyle</strong> is a junior developer based in the NYC area
- dedicated to producing software and excellent user experience. A critical thinker with a passion for learning, an Anthropologist and linguist with international experience, they bring a diverse and unique set of skills to any project or team environment.
+ dedicated to producing software and excellent user experience. They love learning new languages, both natural and computer, and are passionate about how technology can be leveraged to an educational and humanitarian end.
 </p>
                             <a className='squadLinks' href="https://shaiahwren.com/" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Portfolio</button></a>
                             <a className='squadLinks' href="https://github.com/ShaiahWren" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Github</button></a>

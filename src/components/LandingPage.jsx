@@ -26,7 +26,7 @@ const LandingPage = ({ users }) => {
 
                 <div className='intro'>
                     <h1 id="top">Your go to place to study</h1>
-                    <p>j.DevSpace is a resource for junior developers that neatly brings together interview prep, video coding tutorials, and the jobs search in an easy-to-use app. A back-end with express routes stores flashcards for JavaScript, Python, and React fundamentals in a database.</p>
+                    <p className="intro-para"><strong className="intro-title">j.DevSpace</strong> brings emerging software developers into a supportive and educational environment of tools and resources necessary for career success. This app features four “Dashboard” components: news, flashcards, videos, and jobs. Users can navigate through an informational feed related to the newest developments happening in the coding world, practice interview questions about coding languages and frameworks, watch educational videos, and search for employment in the industry. Come to j.DevSpace to enhance your skills and launch your career!</p>
                 </div>
                 <div className="intro-wrapper">
                     <div className="row">
@@ -64,25 +64,29 @@ const LandingPage = ({ users }) => {
                     <div>
                         <div className='descriptions card z-depth-0'>
                             <div className='cardMarg'>
-                            <h2 id="news">News</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo vel orci porttitor malesuada. Proin sed tempor eros, sit amet dapibus turpis. Praesent vitae elit quis nibh facilisis eleifend. In id viverra tellus, sed varius mauris. Suspendisse vel ultrices urna. Sed sit amet dui et nisl dapibus feugiat sed eget mi. Mauris nunc velit, pulvinar id augue eget, vulputate dapibus sapien. Vestibulum est felis, ornare a purus vitae, scelerisque vestibulum diam. Fusce vehicula mi eget velit posuere, quis condimentum mi finibus. Nullam maximus ex nec ex posuere elementum. Cras at efficitur erat. Curabitur sed mauris purus. Aliquam feugiat mi eget purus dapibus, a vulputate nisl feugiat. Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.</p>
+                            <h2 className="bullot" id="news">News</h2>
+                            <p className='cardMarg'>
+
+                            The News feature provides updates about latest technologies and developments  within the tech world. This component encourages junior developers to seek out new information and learn different ways that companies may be implementing new technologies. Staying primed to happenings in the coding world and becoming adaptable to new technologies within the field will make for an easy transition during your career. Spending time on this news feed will keep junior developers updated and encourage curiosity about the ever-changing and evolving technology scene.  
+
+                            </p>
                             <p><a href="#top"><img className='backToTop' src="/images/back-to-top.png" alt="back to top"/></a></p>
                             </div>
                         </div>
                         <div className='descriptions card z-depth-0'>
-                            <h2 id="flashcards">Flashcards</h2>
-                            <p className='cardMarg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo vel orci porttitor malesuada. Proin sed tempor eros, sit amet dapibus turpis. Praesent vitae elit quis nibh facilisis eleifend. In id viverra tellus, sed varius mauris. Suspendisse vel ultrices urna. Sed sit amet dui et nisl dapibus feugiat sed eget mi. Mauris nunc velit, pulvinar id augue eget, vulputate dapibus sapien. Vestibulum est felis, ornare a purus vitae, scelerisque vestibulum diam. Fusce vehicula mi eget velit posuere, quis condimentum mi finibus. Nullam maximus ex nec ex posuere elementum. Cras at efficitur erat. Curabitur sed mauris purus. Aliquam feugiat mi eget purus dapibus, a vulputate nisl feugiat. Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.</p>
+                            <h2 className="bullot" id="flashcards">Flashcards</h2>
+                            <p className='cardMarg'>The FlashCard feature helps junior developers strengthen foundational concepts in coding languages and libraries: Python, JavaScript, and React. Critical thinking and problem-solving are important when having technical interviews, reading others code, and debugging. They both help junior developers engage with the why question of a problem before jumping right to the answer. As a junior developer or developer at any stage it is important to have a skill that allows you to analyze your work, others work etc. Using the flash card component allows you the space to do that before rushing into an ineffective or incomplete solution. </p>
                             <p><a href="#top"><img className='backToTop' src="/images/back-to-top.png" alt="back to top"/></a></p>
                         </div>
                         <div className='descriptions card z-depth-0'>
-                            <h2 id="videos">Videos</h2>
-                            <p className='cardMarg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo vel orci porttitor malesuada. Proin sed tempor eros, sit amet dapibus turpis. Praesent vitae elit quis nibh facilisis eleifend. In id viverra tellus, sed varius mauris. Suspendisse vel ultrices urna. Sed sit amet dui et nisl dapibus feugiat sed eget mi. Mauris nunc velit, pulvinar id augue eget, vulputate dapibus sapien. Vestibulum est felis, ornare a purus vitae, scelerisque vestibulum diam. Fusce vehicula mi eget velit posuere, quis condimentum mi finibus. Nullam maximus ex nec ex posuere elementum. Cras at efficitur erat. Curabitur sed mauris purus. Aliquam feugiat mi eget purus dapibus, a vulputate nisl feugiat. Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.</p>
+                            <h2 className="bullot" id="videos">Videos</h2>
+                            <p className='cardMarg'>The Video feature is a space to search live coding tutorials on and videos for any challenge one might be faced with as a junior developer.  Working in software development involves problem-solving, trouble-shooting, and learning, no matter what level of experience one brings to a given project. Success as a junior developer requires humility and resilience when bugs emerge, and the video feature encourages developers to reach out to the wider software engineering community for help. As a dashboard feature within a single app, our video searchbar reduces the amount of time spent clicking between windows and tabs on the browser and streamlines the process of producing functional code. </p>
                             <p><a href="#top"><img className='backToTop' src="/images/back-to-top.png" alt="back to top"/></a></p>
 
                         </div>
                         <div className='descriptions card z-depth-0'>
-                            <h2 id="jobs">Jobs</h2>
-                            <p className='cardMarg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo vel orci porttitor malesuada. Proin sed tempor eros, sit amet dapibus turpis. Praesent vitae elit quis nibh facilisis eleifend. In id viverra tellus, sed varius mauris. Suspendisse vel ultrices urna. Sed sit amet dui et nisl dapibus feugiat sed eget mi. Mauris nunc velit, pulvinar id augue eget, vulputate dapibus sapien. Vestibulum est felis, ornare a purus vitae, scelerisque vestibulum diam. Fusce vehicula mi eget velit posuere, quis condimentum mi finibus. Nullam maximus ex nec ex posuere elementum. Cras at efficitur erat. Curabitur sed mauris purus. Aliquam feugiat mi eget purus dapibus, a vulputate nisl feugiat. Fusce semper eu odio sit amet posuere. Morbi quis velit nisl. Nunc eget ante sagittis dui finibus facilisis at vitae nunc.</p>
+                            <h2 className="bullot" id="jobs">Jobs</h2>
+                            <p className='cardMarg'>The Jobs component  is a space to search software engineering jobs. It provides insight into what  the job market is looking for and what technologies are being used by certain companies. Knowing what your strengths are as a junior developer is critical when applying to a job. Having a clear distinction of what those strengths and weaknesses are will help a junior developer know what companies are the best fit for their needs as a junior developer.. Also, as a junior developer, it is encouraged to have technical skills that can help evolve your career when being onboarded with a new company. Using this feature can help any junior developer understand where they should be investing their time best!</p>
                             <p><a href="#top"><img className='backToTop' src="/images/back-to-top.png" alt="back to top"/></a></p>
                         </div>
                     </div>

@@ -22,6 +22,18 @@ a {
 	margin: 0 15% 5% 15%;
 }
 
+.intro-para {
+	/* width: 300px; */
+	max-width: 500px;
+	margin: auto;
+	text-indent: 10%;
+	text-align: left;
+}
+
+.intro-title {
+	font-weight: bolder;
+	font-size: larger;
+}
 .intro-wrapper {
 	display: flex;
 	flex-direction: row;
@@ -188,9 +200,15 @@ a img {
 }
 
 .bio {
+	margin: 0 auto;
 	text-align: left;
-	text-indent: 10%;
-	max-width: 300px;
+	/* text-indent: 10%; */
+	max-width: 250px;
+	padding-bottom: 18px;
+}
+
+.bullot {
+	padding-top: 16px;
 }
 
 @media (min-width: 320px) {
