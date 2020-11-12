@@ -28,6 +28,8 @@ class YouTube extends React.Component {
 	render() {
 		return (
 			<div className="ui container">
+								<h3 className="video-intro">Explore coding tutorials, lofi music, and more! </h3>
+
 				<SearchBar handleFormSubmit={this.handleSubmit} />
 				<div className="ui grid">
 					<div className="row">

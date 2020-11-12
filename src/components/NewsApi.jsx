@@ -57,7 +57,6 @@ export default function NewsApi() {
 
     return (
         <>
-        <h1> News </h1>
         <button className="btn-small teal darken-1 jobBtn" onClick={getTechNews}>
 				Tech News
 			</button>
@@ -93,7 +92,7 @@ export default function NewsApi() {
 
             )
         })
-        };
+        }
 
     </>
     )

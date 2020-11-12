@@ -34,7 +34,6 @@ class News extends Component {
 
         return (
             <>
-                <h1> News </h1>
 
                 {this.state.newsLoads.map(article => {
                     return (
