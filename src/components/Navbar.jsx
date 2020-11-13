@@ -23,7 +23,7 @@ const Navbar = () => {
                     </ul>
 
                     <ul id="nav-mobile" className="left">
-                        <li><a href="https://github.com/ShaiahWren/Study-App" target="_blank"><span className="fab style2 major fa-github" style={{ padding: '12px', fontSize: '35px' }}></span></a></li>
+                        {/* <li><a href="https://github.com/ShaiahWren/Study-App" target="_blank"><span className="fab style2 major fa-github" style={{ padding: '12px', fontSize: '35px' }}></span></a></li> */}
                     </ul>
                 </div>
             </nav>
