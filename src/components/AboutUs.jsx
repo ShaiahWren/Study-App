@@ -39,9 +39,9 @@ const Signin = () => {
                     </div>
                     <div className='col m6 l3'>
                         <div className="card z-depth-0 blue-grey lighten-5">
-                            <img className="intro-images" src="/images/shaiah_profile.jpg" alt="" />
+                            <img className="intro-images" src="/images/luke_profile.jpg" alt="" />
                             <h3>Luke</h3>
-                            <p className="bio"><strong>Luke Brazil</strong> is a junior developer based in the Houston area.</p>
+                            <p className="bio"><strong>Luke Brazil</strong> is a junior developer based in the Houston area. He enjoys learning new aspects of programming languages and implementing them into new projects. His hobbies include disc golf, eating chinese food, and reading.</p>
                             <a className='squadLinks' href="https://www.lukebrazil.com/" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Portfolio</button></a>
                             <a className='squadLinks' href="https://github.com/LukeBrazil" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Github</button></a>
                             <a className='squadLinks' href="https://www.linkedin.com/in/luke-brazil-0506b71b0/" target="_blank"><button className="squadLinks btn-small light-blue darken-2">LinkedIn</button></a>
