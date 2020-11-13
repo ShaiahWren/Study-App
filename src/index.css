@@ -247,6 +247,10 @@ h4 {
 	max-width: 250px;
 }
 
+.fa-github {
+	color: #174372;
+}
+
 @media (min-width: 320px) {
 	.intro-scroll {
 		display: none;
