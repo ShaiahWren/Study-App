@@ -16,7 +16,7 @@ Primary Team Role: Back-end Development, PostgreSQL, Front-end Development, Resp
 Primary Team Role: Scrum Master, Front-end Development, styling, text content.
 
 **Tait Loughridge:** https://github.com/TaitLoughridge/Study-App 
-Primary Team Role: Front-end Development, logo and icon extrordinaire, Concept & Design Lead.
+Primary Team Role: Front-end Development, logo and icon, Concept & Design Lead.
 
 
 ## Misc

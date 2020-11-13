@@ -54,9 +54,7 @@ const Signin = () => {
                             <a className='squadLinks' href="https://shaiahwren.com/" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Portfolio</button></a>
                             <a className='squadLinks' href="https://github.com/ShaiahWren" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Github</button></a>
                             <a className='squadLinks' href="https://www.linkedin.com/in/shaiah-emigh-doyle/" target="_blank"><button className="squadLinks btn-small light-blue darken-2">LinkedIn</button></a>
-                            <p className="bio"><strong>Shaiah Emigh-doyle</strong> is a junior developer based in the NYC area
- dedicated to producing software and excellent user experience. They love learning new languages, both natural and computer, and are passionate about how technology can be leveraged to an educational and humanitarian end.
-</p>
+                            <p className="bio"><strong>Shaiah Emigh-doyle</strong> is a junior developer based in the NYC area dedicated to producing software and excellent user experience. They love learning new languages, both natural and computer, and are passionate about how technology can be leveraged to an educational and humanitarian end.</p>
                         </div>
                     </div>
                     <div className='col m6 l3'>

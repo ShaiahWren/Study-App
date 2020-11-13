@@ -30,7 +30,7 @@
 }
 
 .card2.flip {
-	--rotate-y: 180deg;
+	transform: rotateY(-180deg);
 }
 
 .card2 .front {
