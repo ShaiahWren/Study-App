@@ -209,6 +209,12 @@ h4 {
 	width: 100%;
 }
 
+.logo {
+	width: 50px;
+	float: left;
+	margin: 6px 0 0 17px;
+}
+
 /* Jobs */
 
 .jobsCard {

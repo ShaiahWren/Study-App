@@ -12,6 +12,7 @@ const Navbar = () => {
         <>
             <nav>
                 <div className="nav-wrapper z-depth-0 ">
+                    <a href="/" target="_blank"><img className='logo' src='/images/jdevspace-logo.png' alt='logo'></img></a>
                     <a href="/" className="brand-logo center">j.DevSpace</a>
                     <a href="#" data-target="mobile-demo" className="sidenav-trigger right"><i className="material-icons">menu</i></a>
 
@@ -19,11 +20,6 @@ const Navbar = () => {
                         <li><Link to="/dashboard" className="waves-effect waves-light btn-small light-blue darken-2">Dashboard</Link></li>
                         <li><Link to="/aboutus" className="waves-effect waves-light btn-small light-blue darken-2">Team</Link></li>
                         <li><Link to="/" className="waves-effect waves-light btn-small light-blue darken-2">Home</Link></li>
-
-                    </ul>
-
-                    <ul id="nav-mobile" className="left">
-                        {/* <li><a href="https://github.com/ShaiahWren/Study-App" target="_blank"><span className="fab style2 major fa-github" style={{ padding: '12px', fontSize: '35px' }}></span></a></li> */}
                     </ul>
                 </div>
             </nav>
