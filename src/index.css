@@ -245,6 +245,7 @@ h4 {
 	width: 80%;
 	height: auto;
 	max-width: 250px;
+	border-radius: 4%;
 }
 
 .fa-github {
