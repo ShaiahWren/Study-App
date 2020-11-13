@@ -28,7 +28,7 @@ const Signin = () => {
             <div className="intro-wrapper">
                 <div className='row'>
                     <div className='col m6 l3'>
-                        <div className="card left z-depth-0 blue-grey lighten-5">
+                        <div className="card z-depth-0 blue-grey lighten-5">
                             <img className="bio-images" src="/images/Aliyah.jpg" alt="" />
                             <h3>Aliyah</h3>
                             <a className='squadLinks' href="#" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Portfolio</button></a>
@@ -60,7 +60,7 @@ const Signin = () => {
                         </div>
                     </div>
                     <div className='col m6 l3'>
-                        <div className="card right z-depth-0 blue-grey lighten-5">
+                        <div className="card z-depth-0 blue-grey lighten-5">
                             <img className="bio-images" src="/images/tait.JPG" alt="" />
                             <h3>Tait</h3>
                             <a className='squadLinks' href="https://jtloughridge.com/" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Portfolio</button></a>
