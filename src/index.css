@@ -199,6 +199,11 @@ h4 {
 	font-family: 'Acme', sans-serif;
 }
 
+/* a img {
+	max-width: 5%;
+	height: auto;
+} */
+
 .descriptions {
 	margin: 100px auto;
 	width: 100%;
@@ -214,7 +219,7 @@ h4 {
 }
 
 .jobBtn {
-	margin: 5px 5px 5px 5px;
+	margin: 10px 5px 5px 5px;
 }
 
 /* About Us && Landing Page */
@@ -233,6 +238,13 @@ h4 {
 
 .bullot {
 	padding-top: 16px;
+}
+
+.bio-images {
+	margin: 0 10px 0 10px;
+	width: 80%;
+	height: auto;
+	max-width: 250px;
 }
 
 @media (min-width: 320px) {

@@ -1,5 +1,5 @@
 
-import { Route } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import Dashboard from './Dashboard';
 import { gsap } from 'gsap'
 
@@ -25,28 +25,30 @@ const LandingPage = ({ users }) => {
                     <div className="row">
                         <div className="col m6 l3">
                             <div className="card z-depth-0 blue-grey lighten-5">
-                                <img className="intro-images" src="/images/news.png" alt="" />
                                 
+                                <a href="#news"><img className="intro-images" src="/images/news.png" alt="" /></a>
+                                
+                               
                                 {/* <p>A place for sharing news and resources about projects, tech, etc!</p> */}
                             </div>
                         </div>
                         <div className="col m6 l3">
                             <div className="card z-depth-0 blue-grey lighten-5">
-                                <img className="intro-images" src="/images/flashcards.png" alt="" />
+                                <a href="#flashcards"><img className="intro-images" src="/images/flashcards.png" alt="" /></a>
                                 
                                 {/* <p>Quiz yourself on JS, React, etc!</p> */}
                             </div>
                         </div>
                         <div className="col m6 l3">
                             <div className="card z-depth-0 blue-grey lighten-5">
-                                <img className="intro-images" src="/images/video.png" alt="" />
+                                <a href="#videos"><img className="intro-images" src="/images/video.png" alt="" /></a>
                                 
                                 {/* <p>Video tutorials and more</p> */}
                             </div>
                         </div>
                         <div className="col m6 l3">
                             <div className="card z-depth-0 blue-grey lighten-5">
-                                <img className="intro-images" src="/images/jobs.png" alt="" />
+                                <a href="#jobs"><img className="intro-images" src="/images/jobs.png" alt="" /></a>
                                 
                                 {/* <p>Job info for junior devs</p> */}
                             </div>
