@@ -11,15 +11,6 @@ const Signin = () => {
     return (
         <>
             <Navbar />
-            {/* <nav>
-                <div className="nav-wrapper z-depth-0 blue-grey darken-3">
-                    <a href="/" className="brand-logo center">j.DevSpace</a>
-                    <ul id="nav-mobile" className="right">
-                        <li><a href="/" className="waves-effect waves-light btn-small light-blue darken-2">Home</a></li>
-                        <li><a href="/dashboard" className="waves-effect waves-light btn-small light-blue darken-2">Dashboard</a></li>
-                    </ul>
-                </div>
-            </nav> */}
 
             <div className="card-wrapper">
                 <h1>The Squad</h1>
@@ -64,7 +55,7 @@ const Signin = () => {
                             <a className='squadLinks' href="https://jtloughridge.com/" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Portfolio</button></a>
                             <a className='squadLinks' href="https://github.com/TaitLoughridge" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Github</button></a>
                             <a className='squadLinks' href="https://www.linkedin.com/in/tait-loughridge/" target="_blank"><button className="squadLinks btn-small light-blue darken-2">LinkedIn</button></a>
-                            <p className="bio"><strong>Tait Loughridge</strong> is a junior developer based in the Houston area.</p>
+                            <p className="bio"><strong>Tait Loughridge</strong> is a junior developer based in the Houston area. He relies on his background in art and eye for effective design. In his free time, he enjoys gaming, time with family, and creating sculptures in clay.</p>
                         </div>
                     </div>
                 </div>
