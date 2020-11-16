@@ -170,7 +170,7 @@ const Dashboard = () => {
             Python
           </button>
         </form>
-        <p>Please chose a flashcard deck above to study</p>
+        <h3>Please chose a flashcard deck above to study</h3>
         <div className="container">
           <FlashcardList flashcards={flashcards} />
         </div>

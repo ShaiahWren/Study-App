@@ -11,15 +11,6 @@ const Signin = () => {
     return (
         <>
             <Navbar />
-            {/* <nav>
-                <div className="nav-wrapper z-depth-0 blue-grey darken-3">
-                    <a href="/" className="brand-logo center">j.DevSpace</a>
-                    <ul id="nav-mobile" className="right">
-                        <li><a href="/" className="waves-effect waves-light btn-small light-blue darken-2">Home</a></li>
-                        <li><a href="/dashboard" className="waves-effect waves-light btn-small light-blue darken-2">Dashboard</a></li>
-                    </ul>
-                </div>
-            </nav> */}
 
             <div className="card-wrapper">
                 <h1>The Squad</h1>
@@ -31,7 +22,7 @@ const Signin = () => {
                         <div className="card z-depth-0 blue-grey lighten-5">
                             <img className="bio-images" src="/images/Aliyah.jpg" alt="" />
                             <h3>Aliyah</h3>
-                            <a className='squadLinks' href="#" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Portfolio</button></a>
+                            <a className='squadLinks' href="#"><button className="squadLinks btn-small light-blue darken-2 disabled">Portfolio</button></a>
                             <a className='squadLinks' href="https://github.com/AGamble7" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Github</button></a>
                             <a className='squadLinks' href="https://www.linkedin.com/in/aliyah-gamble-a87839173/" target="_blank"><button className="squadLinks btn-small light-blue darken-2">LinkedIn</button></a>
                             <p className="bio"><strong>Aliyah Gamble</strong> is a junior developer based in the Atlanta area.</p>
@@ -54,9 +45,7 @@ const Signin = () => {
                             <a className='squadLinks' href="https://shaiahwren.com/" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Portfolio</button></a>
                             <a className='squadLinks' href="https://github.com/ShaiahWren" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Github</button></a>
                             <a className='squadLinks' href="https://www.linkedin.com/in/shaiah-emigh-doyle/" target="_blank"><button className="squadLinks btn-small light-blue darken-2">LinkedIn</button></a>
-                            <p className="bio"><strong>Shaiah Emigh-doyle</strong> is a junior developer based in the NYC area
- dedicated to producing software and excellent user experience. They love learning new languages, both natural and computer, and are passionate about how technology can be leveraged to an educational and humanitarian end.
-</p>
+                            <p className="bio"><strong>Shaiah Emigh-doyle</strong> is a junior developer based in the NYC area dedicated to producing software and excellent user experience. They love learning new languages, both natural and computer, and are passionate about how technology can be leveraged to an educational and humanitarian end.</p>
                         </div>
                     </div>
                     <div className='col m6 l3'>
@@ -66,7 +55,7 @@ const Signin = () => {
                             <a className='squadLinks' href="https://jtloughridge.com/" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Portfolio</button></a>
                             <a className='squadLinks' href="https://github.com/TaitLoughridge" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Github</button></a>
                             <a className='squadLinks' href="https://www.linkedin.com/in/tait-loughridge/" target="_blank"><button className="squadLinks btn-small light-blue darken-2">LinkedIn</button></a>
-                            <p className="bio"><strong>Tait Loughridge</strong> is a junior developer based in the Houston area.</p>
+                            <p className="bio"><strong>Tait Loughridge</strong> is a junior developer based in the Houston area. He relies on his background in art and eye for effective design. In his free time, he enjoys gaming, time with family, and creating sculptures in clay.</p>
                         </div>
                     </div>
                 </div>

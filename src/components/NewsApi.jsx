@@ -69,6 +69,7 @@ export default function NewsApi() {
 			<button className="btn-small teal darken-1 jobBtn" onClick={getPythonNews}>
 				Python News
 			</button>
+            <h3>Please chose a search above</h3>
 	
         {newsData.map(article => {
             return (

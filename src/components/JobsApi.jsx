@@ -94,6 +94,8 @@ export default function JobsApi() {
 			<button className="btn-small teal darken-1 jobBtn" onClick={getFrontEndJobs}>
 				Front End Jobs
 			</button>
+			<h3>Please chose a search above to find jobs</h3>
+
 			{jobsData.map((job) => {
 				return (
 					<div className="jobsCard card z-depth-0">

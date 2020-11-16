@@ -1,5 +1,6 @@
 # j.DEVSPACE
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6c17efec-cf7b-40b7-951f-a9d1513b4583/deploy-status)](https://app.netlify.com/sites/jdevspace/deploys)
 
 ## Overview
 j.devspace is an resource for junior developers that neatly brings together interview prep, video coding tutorials, and the jobs search in an easy-to-use app. A back-end with express routes stores flashcards for JavaScript, Python, and React fundamentals in a database. 
@@ -16,7 +17,7 @@ Primary Team Role: Back-end Development, PostgreSQL, Front-end Development, Resp
 Primary Team Role: Scrum Master, Front-end Development, styling, text content.
 
 **Tait Loughridge:** https://github.com/TaitLoughridge/Study-App 
-Primary Team Role: Front-end Development, logo and icon extrordinaire, Concept & Design Lead.
+Primary Team Role: Front-end Development, logo and icon, Concept & Design Lead.
 
 
 ## Misc
