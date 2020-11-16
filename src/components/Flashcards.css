@@ -29,9 +29,12 @@
 	box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
 }
 
+
 .card2.flip {
 	transform: rotateY(-180deg);
-}
+  }
+  
+  
 
 .card2 .front {
 	left: 0;

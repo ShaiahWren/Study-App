@@ -22,10 +22,10 @@ const Signin = () => {
                         <div className="card z-depth-0 blue-grey lighten-5">
                             <img className="bio-images" src="/images/Aliyah.jpg" alt="" />
                             <h3>Aliyah</h3>
-                            <a className='squadLinks' href="#"><button className="squadLinks btn-small light-blue darken-2 disabled">Portfolio</button></a>
+                            <a className='squadLinks' href="https://aliyahgamble.netlify.app/" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Portfolio</button></a>
                             <a className='squadLinks' href="https://github.com/AGamble7" target="_blank"><button className="squadLinks btn-small light-blue darken-2">Github</button></a>
                             <a className='squadLinks' href="https://www.linkedin.com/in/aliyah-gamble-a87839173/" target="_blank"><button className="squadLinks btn-small light-blue darken-2">LinkedIn</button></a>
-                            <p className="bio"><strong>Aliyah Gamble</strong> is a junior developer based in the Atlanta area.</p>
+                            <p className="bio"><strong>Aliyah Gamble</strong> is a junior developer based in the Atlanta area. She is passionate about her career in technology, her focus on continuing her education, and how she can comprise her abilities and her passions.  Although her career has just begun, Aliyah is a junior developer working towards being a Cyber Security professional.</p>
                         </div>
                     </div>
                     <div className='col m6 l3'>
